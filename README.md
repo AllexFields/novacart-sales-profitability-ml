@@ -216,6 +216,8 @@ python src/evaluate_profit_model.py
 streamlit run app/streamlit_app.py
 ```
 
+Or the Link to application: (https://novacart-sales-profitability-ml-qbrg4uhklsrtsrafbu8ets.streamlit.app/)
+
 ---
 
 ## 12. Visual Diagnostics & Screenshots
