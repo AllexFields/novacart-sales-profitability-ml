@@ -159,7 +159,7 @@ Model interpretability is evaluated via game-theoretic **SHAP (SHapley Additive 
 
 ## 10. Streamlit Dashboard
 
-The enterprise application is located at (live application) [`app/streamlit_app.py`]([app/streamlit_app.py](https://novacart-sales-profitability-ml-qbrg4uhklsrtsrafbu8ets.streamlit.app/)) and features four cohesive sections:
+The enterprise application is located at [`app/streamlit_app.py`](app/streamlit_app.py) and features four cohesive sections:
 
 1. **Dual-Engine Assessment Matrix:** Live interactive gauge meters, dual prediction cards, and automated policy directives.
 2. **Section 1: Return Risk Prediction:** Real-time probability estimation, confidence intervals, risk categorization (`Low`, `Medium`, `High`), and confusion matrices.
