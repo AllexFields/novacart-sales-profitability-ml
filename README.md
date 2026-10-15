@@ -176,7 +176,7 @@ The enterprise application is located at [`app/streamlit_app.py`](app/streamlit_
 
 ### 1. Clone the Repository:
 ```bash
-git clone https://github.com/your-username/novacart-sales-profitability-ml.git
+git clone https://github.com/AllexFields/novacart-sales-profitability-ml.git
 cd novacart-sales-profitability-ml
 ```
 
