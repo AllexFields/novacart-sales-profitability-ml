@@ -1,0 +1,26 @@
+# NovaCart Solutions Pvt. Ltd. - Production Dependencies
+# Python Runtime: >=3.10, <=3.14
+
+# Data Processing & Numerical Computing
+pandas>=2.0.0
+numpy>=1.24.0
+openpyxl>=3.1.0
+
+# Machine Learning & Optimization
+scikit-learn>=1.3.0
+xgboost>=2.0.0
+joblib>=1.3.0
+
+# Model Interpretability & Explainability
+shap>=0.44.0
+
+# Statistical Analysis & Metrics Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+plotly>=5.15.0
+
+# Business Intelligence Application
+streamlit>=1.30.0
+
+# Code Quality & Testing
+pytest>=7.4.0

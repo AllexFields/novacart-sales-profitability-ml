@@ -1,0 +1,58 @@
+{
+    "Model Name": "Gradient Boosting Regressor",
+    "Evaluation Metrics": {
+        "MAE": 351.9312070935537,
+        "MSE": 273277.0565559708,
+        "RMSE": 522.7590807972357,
+        "R2": 0.9899167920505835
+    },
+    "Top 10 Important Features": [
+        {
+            "Feature": "Effective_Sales",
+            "Importance": 0.48918321254330327
+        },
+        {
+            "Feature": "Category_Furniture",
+            "Importance": 0.3398859752299744
+        },
+        {
+            "Feature": "Category_Home Appliances",
+            "Importance": 0.06268348509586655
+        },
+        {
+            "Feature": "Discount_pct",
+            "Importance": 0.05849488530343059
+        },
+        {
+            "Feature": "Discount_Amount",
+            "Importance": 0.02689220737489379
+        },
+        {
+            "Feature": "High_Discount_Flag",
+            "Importance": 0.004771939088992738
+        },
+        {
+            "Feature": "Sales",
+            "Importance": 0.0044573729560450056
+        },
+        {
+            "Feature": "Discount_Bucket_Low (0-10%)",
+            "Importance": 0.0040040246824212394
+        },
+        {
+            "Feature": "Rating_Delivery_Ratio",
+            "Importance": 0.002113572676461494
+        },
+        {
+            "Feature": "Delivery_Category_Home Appliances_Normal",
+            "Importance": 0.0019625380502662
+        }
+    ],
+    "Business Questions & Strategic Answers": {
+        "1. What drives profit?": "Order profitability is primarily governed by Effective Sales volume (net ticket size after discounts) and product Category margin structure. Furniture orders inherently yield significantly higher absolute and percentage margins (~16.2%), whereas Fashion and Electronics operate on razor-thin baseline margins (~2.8%-3.5%).",
+        "2. How important is discounting?": "Discounting is the single largest margin destroyer. Monetary discount amount (Discount_Amount) and discount percentage (Discount_pct) directly subtract from top-line contribution. Beyond 20% discount, profitability collapses by more than 60% across all categories.",
+        "3. How important is delivery delay?": "While delivery delays do not directly alter the booked unit margin at checkout, delivery delays indirectly crush net realized profit because orders delayed past 5 days suffer double the return rate (41.2%), generating reverse logistics overhead and zero net revenue.",
+        "4. Which categories contribute most to profit?": "Furniture is NovaCart's most lucrative category, generating an average 16.2% profit margin. Home Appliances ranks second at 7.8% margin. Conversely, Fashion (2.9% margin) and Electronics (3.5% margin) experience severe margin compression.",
+        "5. Which regions contribute most to profitability?": "North and West regions lead profitability with average margins of ~8.9%. In contrast, the South region generates high gross sales volume but suffers the lowest profit margins (4.76%) due to elevated promotional discounting and fulfillment costs."
+    }
+}

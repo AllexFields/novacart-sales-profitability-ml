@@ -1,0 +1,441 @@
+Order_ID,Order_Date,Region,Category,Sales,Discount_pct,Profit,Delivery_Days,Customer_Rating,Returned,Returned_Binary,High_Discount_Flag,Late_Delivery_Flag,Discount_Bucket,Sales_Bucket,Profit_Margin,Region_Category,Delivery_Category,Low_Rating_Flag,High_Risk_Combination_Flag,Effective_Sales,Discount_Amount,Rating_Delivery_Ratio
+NC10074,2025-05-26,North,Home Appliances,82498,4,11981.68,6,5.0,No,0,0,1,Low (0-10%),High (60k-90k),14.52360057213508,North_Home Appliances,Home Appliances_Late,0,0,79198.08,3299.92,0.7142857142857143
+NC10243,2025-12-19,West,Electronics,2072,24,41.44,3,4.8,No,0,1,0,High (21-30%),Low (<30k),2.0,West_Electronics,Electronics_Normal,0,0,1574.72,497.28,1.2
+NC10332,2025-04-24,West,Electronics,109720,26,2194.4,3,4.9,No,0,1,0,High (21-30%),Very High (>90k),2.0,West_Electronics,Electronics_Normal,0,0,81192.8,28527.2,1.225
+NC10393,2025-08-15,South,Fashion,37283,28,745.66,6,4.5,No,0,1,1,High (21-30%),Medium (30k-60k),2.0,South_Fashion,Fashion_Late,0,1,26843.76,10439.240000000002,0.6428571428571429
+NC10455,2025-11-06,East,Fashion,27062,6,907.53,6,5.0,No,0,0,1,Low (0-10%),Low (<30k),3.3535215431231986,East_Fashion,Fashion_Late,0,0,25438.28,1623.72,0.7142857142857143
+NC10494,2025-12-30,North,Home Appliances,14590,25,291.8,6,5.0,No,0,1,1,High (21-30%),Low (<30k),2.0,North_Home Appliances,Home Appliances_Late,0,1,10942.5,3647.5,0.7142857142857143
+NC10315,2025-01-12,South,Furniture,34805,29,4293.35,3,4.6,Yes,1,1,0,High (21-30%),Medium (30k-60k),12.335440310300246,South_Furniture,Furniture_Normal,0,0,24711.55,10093.449999999999,1.15
+NC10290,2025-11-27,West,Electronics,39163,28,783.26,5,4.7,No,0,1,0,High (21-30%),Medium (30k-60k),2.0,West_Electronics,Electronics_Normal,0,0,28197.36,10965.640000000001,0.7833333333333333
+NC10454,2025-06-03,South,Home Appliances,77701,31,1842.89,7,3.0,Yes,1,1,1,Very High (>30%),High (60k-90k),2.3717712770749415,South_Home Appliances,Home Appliances_Late,1,1,53613.689999999995,24087.31,0.375
+NC10326,2025-04-09,North,Electronics,45996,12,1870.74,6,5.0,No,0,0,1,Medium (11-20%),Medium (30k-60k),4.067179754761283,North_Electronics,Electronics_Late,0,0,40476.48,5519.5199999999995,0.7142857142857143
+NC10201,2025-10-12,West,Electronics,11156,2,616.32,4,5.0,No,0,0,0,Low (0-10%),Low (<30k),5.524560774471137,West_Electronics,Electronics_Normal,0,0,10932.88,223.12,1.0
+NC10394,2025-01-10,South,Fashion,36580,23,731.6,10,3.9,Yes,1,1,1,High (21-30%),Medium (30k-60k),2.0,South_Fashion,Fashion_Late,0,1,28166.600000000002,8413.4,0.35454545454545455
+NC10529,2025-10-18,North,Electronics,70306,32,1406.12,5,3.9,Yes,1,1,0,Very High (>30%),High (60k-90k),1.9999999999999998,North_Electronics,Electronics_Normal,0,0,47808.079999999994,22497.920000000002,0.65
+NC10259,2025-06-11,East,Furniture,107998,11,23880.54,10,3.3,Yes,1,0,1,Medium (11-20%),Very High (>90k),22.112020592973945,East_Furniture,Furniture_Late,1,0,96118.22,11879.78,0.3
+NC10331,2025-09-27,North,Furniture,14214,9,2652.25,9,3.8,No,0,0,1,Low (0-10%),Low (<30k),18.65942028985507,North_Furniture,Furniture_Late,0,0,12934.74,1279.26,0.38
+NC10121,2025-10-22,South,Furniture,20960,22,2474.76,8,3.6,No,0,1,1,High (21-30%),Low (<30k),11.807061068702291,South_Furniture,Furniture_Late,0,1,16348.800000000001,4611.2,0.4
+NC10200,2025-10-14,South,Furniture,68300,30,9170.5,4,4.9,No,0,1,0,High (21-30%),High (60k-90k),13.426793557833088,South_Furniture,Furniture_Normal,0,0,47810.0,20490.0,0.9800000000000001
+NC10161,2025-09-29,South,Fashion,3469,35,69.38,4,4.1,Yes,1,1,0,Very High (>30%),Low (<30k),2.0,South_Fashion,Fashion_Normal,0,0,2254.85,1214.1499999999999,0.82
+NC10273,2025-06-10,West,Electronics,103707,18,3060.57,2,4.8,No,0,0,0,Medium (11-20%),Very High (>90k),2.951170123521074,West_Electronics,Electronics_Normal,0,0,85039.74,18667.26,1.5999999999999999
+NC10199,2025-04-17,West,Home Appliances,60864,2,10015.74,3,5.0,No,0,0,0,Low (0-10%),High (60k-90k),16.45593454258675,West_Home Appliances,Home Appliances_Normal,0,0,59646.72,1217.28,1.25
+NC10093,2025-03-08,West,Fashion,52566,15,1051.32,4,4.9,No,0,0,0,Medium (11-20%),Medium (30k-60k),2.0,West_Fashion,Fashion_Normal,0,0,44681.1,7884.9,0.9800000000000001
+NC10089,2025-01-28,North,Furniture,89163,27,12893.34,3,4.7,No,0,1,0,High (21-30%),High (60k-90k),14.46041519464352,North_Furniture,Furniture_Normal,0,0,65088.99,24074.010000000002,1.175
+NC10224,2025-04-20,East,Home Appliances,113931,0,19733.58,9,3.2,No,0,0,1,Low (0-10%),Very High (>90k),17.32064144087211,East_Home Appliances,Home Appliances_Late,1,0,113931.0,0.0,0.32
+NC10457,2025-07-04,West,Furniture,14411,9,2501.43,2,5.0,Yes,1,0,0,Low (0-10%),Low (<30k),17.35778224967039,West_Furniture,Furniture_Normal,0,0,13114.01,1296.99,1.6666666666666667
+NC10468,2025-07-09,North,Home Appliances,26713,25,1595.13,10,3.3,Yes,1,1,1,High (21-30%),Low (<30k),5.971362258076592,North_Home Appliances,Home Appliances_Late,1,1,20034.75,6678.25,0.3
+NC10088,2025-07-16,West,Furniture,30846,27,4182.09,3,4.6,Yes,1,1,0,High (21-30%),Medium (30k-60k),13.557965376385916,West_Furniture,Furniture_Normal,0,0,22517.579999999998,8328.42,1.15
+NC10054,2025-07-27,West,Furniture,14486,8,2831.58,5,4.6,No,0,0,0,Low (0-10%),Low (<30k),19.5470109070827,West_Furniture,Furniture_Normal,0,0,13327.12,1158.88,0.7666666666666666
+NC10125,2025-10-02,South,Furniture,97782,35,11303.3,6,4.0,Yes,1,1,1,Very High (>30%),Very High (>90k),11.559694013213065,South_Furniture,Furniture_Late,0,1,63558.3,34223.7,0.5714285714285714
+NC10488,2025-09-08,West,Home Appliances,62582,24,3167.9,4,4.7,Yes,1,1,0,High (21-30%),High (60k-90k),5.061998657761017,West_Home Appliances,Home Appliances_Normal,0,0,47562.32,15019.68,0.9400000000000001
+NC10060,2025-05-29,North,Home Appliances,102523,28,4832.24,5,4.4,No,0,1,0,High (21-30%),Very High (>90k),4.713322864137803,North_Home Appliances,Home Appliances_Normal,0,0,73816.56,28706.440000000002,0.7333333333333334
+NC10263,2025-01-14,North,Home Appliances,92809,16,8605.37,4,5.0,No,0,0,0,Medium (11-20%),Very High (>90k),9.27212878061395,North_Home Appliances,Home Appliances_Normal,0,0,77959.56,14849.44,1.0
+NC10296,2025-09-17,South,Electronics,48795,35,975.9,9,2.8,No,0,1,1,Very High (>30%),Medium (30k-60k),2.0,South_Electronics,Electronics_Late,1,1,31716.75,17078.25,0.27999999999999997
+NC10244,2025-01-31,North,Fashion,90962,23,1819.24,7,4.1,No,0,1,1,High (21-30%),Very High (>90k),2.0,North_Fashion,Fashion_Late,0,1,70040.74,20921.260000000002,0.5125
+NC10343,2025-10-16,North,Fashion,101453,19,2029.06,9,3.3,Yes,1,0,1,Medium (11-20%),Very High (>90k),2.0,North_Fashion,Fashion_Late,1,0,82176.93000000001,19276.07,0.32999999999999996
+NC10422,2025-09-26,South,Fashion,112720,25,2254.4,10,3.4,Yes,1,1,1,High (21-30%),Very High (>90k),2.0,South_Fashion,Fashion_Late,1,1,84540.0,28180.0,0.3090909090909091
+NC10371,2025-08-09,West,Home Appliances,11783,1,1364.92,4,5.0,No,0,0,0,Low (0-10%),Low (<30k),11.583807179835356,West_Home Appliances,Home Appliances_Normal,0,0,11665.17,117.83,1.0
+NC10123,2025-05-12,North,Home Appliances,18005,0,2486.9,8,3.1,No,0,0,1,Low (0-10%),Low (<30k),13.812274368231048,North_Home Appliances,Home Appliances_Late,1,0,18005.0,0.0,0.34444444444444444
+NC10287,2025-03-19,West,Home Appliances,47721,31,990.7,4,4.3,Yes,1,1,0,Very High (>30%),Medium (30k-60k),2.076025229982607,West_Home Appliances,Home Appliances_Normal,0,0,32927.49,14793.51,0.86
+NC10282,2025-07-08,North,Furniture,38559,13,7945.82,7,3.5,No,0,0,1,Medium (11-20%),Medium (30k-60k),20.60691407972198,North_Furniture,Furniture_Late,0,0,33546.33,5012.67,0.4375
+NC10491,2025-07-30,South,Electronics,52316,33,1046.32,9,3.6,Yes,1,1,1,Very High (>30%),Medium (30k-60k),2.0,South_Electronics,Electronics_Late,0,1,35051.719999999994,17264.280000000002,0.36
+NC10129,2025-04-23,East,Fashion,111896,5,8244.94,4,4.5,No,0,0,0,Low (0-10%),Very High (>90k),7.3683956531064565,East_Fashion,Fashion_Normal,0,0,106301.2,5594.8,0.9
+NC10397,2025-02-11,South,Electronics,85506,29,1710.12,7,3.1,No,0,1,1,High (21-30%),High (60k-90k),2.0,South_Electronics,Electronics_Late,1,1,60709.259999999995,24796.739999999998,0.3875
+NC10207,2025-12-01,East,Fashion,67285,21,1345.7,5,4.9,No,0,1,0,High (21-30%),High (60k-90k),2.0,East_Fashion,Fashion_Normal,0,0,53155.15,14129.85,0.8166666666666668
+NC10350,2025-11-22,North,Furniture,72482,29,9478.06,2,4.5,Yes,1,1,0,High (21-30%),High (60k-90k),13.07643276951519,North_Furniture,Furniture_Normal,0,0,51462.219999999994,21019.78,1.5
+NC10165,2025-08-20,South,Fashion,71102,35,1422.04,2,4.2,No,0,1,0,Very High (>30%),High (60k-90k),2.0,South_Fashion,Fashion_Normal,0,0,46216.3,24885.699999999997,1.4000000000000001
+NC10029,2025-05-04,East,Furniture,76253,6,18857.01,7,4.1,No,0,0,1,Low (0-10%),High (60k-90k),24.729531952841196,East_Furniture,Furniture_Late,0,0,71677.81999999999,4575.179999999999,0.5125
+NC10057,2025-09-19,South,Fashion,103689,25,2073.78,2,4.7,No,0,1,0,High (21-30%),Very High (>90k),2.0,South_Fashion,Fashion_Normal,0,0,77766.75,25922.25,1.5666666666666667
+NC10180,2025-03-25,East,Furniture,74987,16,14535.3,7,3.9,No,0,0,1,Medium (11-20%),High (60k-90k),19.383759851707627,East_Furniture,Furniture_Late,0,0,62989.079999999994,11997.92,0.4875
+NC10342,2025-03-29,East,Electronics,75540,20,1828.2,9,3.5,No,0,1,1,Medium (11-20%),High (60k-90k),2.420174741858618,East_Electronics,Electronics_Late,0,1,60432.0,15108.0,0.35
+NC10443,2025-05-23,East,Furniture,94375,10,20717.12,5,5.0,No,0,0,0,Low (0-10%),Very High (>90k),21.951915231788078,East_Furniture,Furniture_Normal,0,0,84937.5,9437.5,0.8333333333333334
+NC10519,2025-05-21,South,Electronics,106948,33,2138.96,9,3.2,Yes,1,1,1,Very High (>30%),Very High (>90k),2.0,South_Electronics,Electronics_Late,1,1,71655.15999999999,35292.840000000004,0.32
+NC10318,2025-07-11,West,Home Appliances,111148,20,9105.32,2,5.0,No,0,1,0,Medium (11-20%),Very High (>90k),8.192068233346529,West_Home Appliances,Home Appliances_Normal,0,0,88918.40000000001,22229.600000000002,1.6666666666666667
+NC10097,2025-12-03,West,Electronics,7750,21,155.0,4,4.9,No,0,1,0,High (21-30%),Low (<30k),2.0,West_Electronics,Electronics_Normal,0,0,6122.5,1627.5,0.9800000000000001
+NC10373,2025-01-02,North,Fashion,58607,15,1172.14,4,4.5,No,0,0,0,Medium (11-20%),Medium (30k-60k),2.0,North_Fashion,Fashion_Normal,0,0,49815.95,8791.05,0.9
+NC10374,2025-09-13,East,Home Appliances,32430,7,4560.85,10,3.9,No,0,0,1,Low (0-10%),Medium (30k-60k),14.063675609004008,East_Home Appliances,Home Appliances_Late,0,0,30159.899999999998,2270.1000000000004,0.35454545454545455
+NC10007,2025-08-03,East,Electronics,99187,4,9283.07,4,4.9,No,0,0,0,Low (0-10%),Very High (>90k),9.359159970560658,East_Electronics,Electronics_Normal,0,0,95219.51999999999,3967.48,0.9800000000000001
+NC10252,2025-04-16,East,Fashion,22430,35,448.6,10,3.5,No,0,1,1,Very High (>30%),Low (<30k),2.0,East_Fashion,Fashion_Late,0,1,14579.5,7850.499999999999,0.3181818181818182
+NC10411,2025-03-09,South,Fashion,111859,20,2237.18,10,4.0,No,0,1,1,Medium (11-20%),Very High (>90k),1.9999999999999998,South_Fashion,Fashion_Late,0,1,89487.20000000001,22371.800000000003,0.36363636363636365
+NC10153,2025-08-19,West,Furniture,34844,5,7986.33,3,5.0,No,0,0,0,Low (0-10%),Medium (30k-60k),22.92024451842498,West_Furniture,Furniture_Normal,0,0,33101.799999999996,1742.2,1.25
+NC10137,2025-12-16,South,Home Appliances,35187,34,703.74,5,4.5,Yes,1,1,0,Very High (>30%),Medium (30k-60k),2.0,South_Home Appliances,Home Appliances_Normal,0,0,23223.42,11963.580000000002,0.75
+NC10291,2025-09-20,South,Fashion,101238,35,2024.76,4,4.0,Yes,1,1,0,Very High (>30%),Very High (>90k),2.0,South_Fashion,Fashion_Normal,0,0,65804.7,35433.299999999996,0.8
+NC10122,2025-09-07,North,Electronics,117991,21,2442.77,3,4.7,No,0,1,0,High (21-30%),Very High (>90k),2.0703019721843194,North_Electronics,Electronics_Normal,0,0,93212.89,24778.11,1.175
+NC10101,2025-07-03,North,Electronics,59285,13,3142.03,9,3.8,Yes,1,0,1,Medium (11-20%),Medium (30k-60k),5.299873492451717,North_Electronics,Electronics_Late,0,0,51577.95,7707.05,0.38
+NC10175,2025-01-28,South,Fashion,58372,29,1167.44,6,4.8,No,0,1,1,High (21-30%),Medium (30k-60k),2.0,South_Fashion,Fashion_Late,0,1,41444.119999999995,16927.879999999997,0.6857142857142857
+NC10133,2025-05-01,East,Home Appliances,69873,5,9972.0,4,4.5,No,0,0,0,Low (0-10%),High (60k-90k),14.271607058520457,East_Home Appliances,Home Appliances_Normal,0,0,66379.34999999999,3493.65,0.9
+NC10438,2025-01-25,North,Home Appliances,62982,13,7357.31,7,3.2,Yes,1,0,1,Medium (11-20%),High (60k-90k),11.681607443396528,North_Home Appliances,Home Appliances_Late,1,0,54794.34,8187.66,0.4
+NC10348,2025-10-27,East,Electronics,56342,8,3902.73,4,4.8,No,0,0,0,Low (0-10%),Medium (30k-60k),6.926857406552838,East_Electronics,Electronics_Normal,0,0,51834.64,4507.36,0.96
+NC10404,2025-08-05,North,Electronics,37283,21,745.66,7,4.0,No,0,1,1,High (21-30%),Medium (30k-60k),2.0,North_Electronics,Electronics_Late,0,1,29453.57,7829.429999999999,0.5
+NC10066,2025-11-20,West,Home Appliances,90483,9,11157.38,2,4.6,No,0,0,0,Low (0-10%),Very High (>90k),12.330912989180288,West_Home Appliances,Home Appliances_Normal,0,0,82339.53,8143.469999999999,1.5333333333333332
+NC10103,2025-08-24,West,Home Appliances,30161,3,3899.81,3,5.0,No,0,0,0,Low (0-10%),Medium (30k-60k),12.929975796558468,West_Home Appliances,Home Appliances_Normal,0,0,29256.17,904.8299999999999,1.25
+NC10409,2025-12-30,South,Home Appliances,102160,25,6204.8,2,4.9,No,0,1,0,High (21-30%),Very High (>90k),6.073610023492561,South_Home Appliances,Home Appliances_Normal,0,0,76620.0,25540.0,1.6333333333333335
+NC10458,2025-05-29,North,Electronics,53968,4,4563.74,5,5.0,No,0,0,0,Low (0-10%),Medium (30k-60k),8.456381559442633,North_Electronics,Electronics_Normal,0,0,51809.28,2158.7200000000003,0.8333333333333334
+NC10389,2025-09-04,West,Electronics,85039,24,1700.78,5,5.0,No,0,1,0,High (21-30%),High (60k-90k),2.0,West_Electronics,Electronics_Normal,0,0,64629.64,20409.36,0.8333333333333334
+NC10130,2025-02-09,East,Electronics,20754,33,415.08,3,4.7,Yes,1,1,0,Very High (>30%),Low (<30k),2.0,East_Electronics,Electronics_Normal,0,0,13905.179999999998,6848.820000000001,1.175
+NC10211,2025-12-21,North,Fashion,66411,20,1328.22,10,3.4,No,0,1,1,Medium (11-20%),High (60k-90k),2.0,North_Fashion,Fashion_Late,1,1,53128.8,13282.2,0.3090909090909091
+NC10337,2025-11-23,South,Home Appliances,82375,34,1828.12,4,4.5,Yes,1,1,0,Very High (>30%),High (60k-90k),2.219265553869499,South_Home Appliances,Home Appliances_Normal,0,0,54367.49999999999,28007.500000000004,0.9
+NC10231,2025-12-16,South,Home Appliances,47728,34,954.56,8,2.9,Yes,1,1,1,Very High (>30%),Medium (30k-60k),2.0,South_Home Appliances,Home Appliances_Late,1,1,31500.479999999996,16227.52,0.3222222222222222
+NC10390,2025-12-15,North,Electronics,117128,6,10293.9,10,4.0,No,0,0,1,Low (0-10%),Very High (>90k),8.788590260228126,North_Electronics,Electronics_Late,0,0,110100.31999999999,7027.679999999999,0.36363636363636365
+NC10425,2025-05-30,West,Electronics,68310,9,4216.64,2,5.0,No,0,0,0,Low (0-10%),High (60k-90k),6.172800468452643,West_Electronics,Electronics_Normal,0,0,62162.1,6147.9,1.6666666666666667
+NC10257,2025-10-26,East,Furniture,26821,5,6453.41,4,5.0,No,0,0,0,Low (0-10%),Low (<30k),24.061034264195964,East_Furniture,Furniture_Normal,0,0,25479.949999999997,1341.0500000000002,1.0
+NC10437,2025-09-19,North,Electronics,52691,25,1053.82,3,5.0,No,0,1,0,High (21-30%),Medium (30k-60k),2.0,North_Electronics,Electronics_Normal,0,0,39518.25,13172.75,1.25
+NC10540,2025-10-21,North,Furniture,23454,6,5730.86,10,3.4,Yes,1,0,1,Low (0-10%),Low (<30k),24.43446746823569,North_Furniture,Furniture_Late,1,0,22046.76,1407.24,0.3090909090909091
+NC10415,2025-09-28,South,Electronics,19672,22,393.44,6,4.6,No,0,1,1,High (21-30%),Low (<30k),2.0,South_Electronics,Electronics_Late,0,1,15344.16,4327.84,0.6571428571428571
+NC10288,2025-11-06,East,Fashion,66620,10,3424.1,9,3.8,No,0,0,1,Low (0-10%),High (60k-90k),5.1397478234764336,East_Fashion,Fashion_Late,0,0,59958.0,6662.0,0.38
+NC10477,2025-10-20,East,Electronics,69940,14,2977.58,3,4.7,No,0,0,0,Medium (11-20%),High (60k-90k),4.2573348584501,East_Electronics,Electronics_Normal,0,0,60148.4,9791.6,1.175
+NC10276,2025-04-19,West,Electronics,15256,14,305.12,5,5.0,No,0,0,0,Medium (11-20%),Low (<30k),2.0,West_Electronics,Electronics_Normal,0,0,13120.16,2135.84,0.8333333333333334
+NC10035,2025-07-09,East,Furniture,62873,35,7156.94,5,4.1,No,0,1,0,Very High (>30%),High (60k-90k),11.383169245940227,East_Furniture,Furniture_Normal,0,0,40867.450000000004,22005.55,0.6833333333333332
+NC10508,2025-06-26,West,Fashion,14009,5,280.18,2,5.0,No,0,0,0,Low (0-10%),Low (<30k),2.0,West_Fashion,Fashion_Normal,0,0,13308.55,700.45,1.6666666666666667
+NC10362,2025-07-28,West,Home Appliances,5726,0,677.68,5,4.6,No,0,0,0,Low (0-10%),Low (<30k),11.835137967167306,West_Home Appliances,Home Appliances_Normal,0,0,5726.0,0.0,0.7666666666666666
+NC10173,2025-09-25,West,Furniture,60063,7,13800.66,4,4.8,No,0,0,0,Low (0-10%),High (60k-90k),22.97697417711403,West_Furniture,Furniture_Normal,0,0,55858.59,4204.410000000001,0.96
+NC10187,2025-06-15,West,Home Appliances,79181,35,1583.62,5,4.1,Yes,1,1,0,Very High (>30%),High (60k-90k),1.9999999999999998,West_Home Appliances,Home Appliances_Normal,0,0,51467.65,27713.35,0.6833333333333332
+NC10459,2025-07-06,West,Furniture,88102,35,9676.5,3,4.4,Yes,1,1,0,Very High (>30%),High (60k-90k),10.983292093255544,West_Furniture,Furniture_Normal,0,0,57266.3,30835.699999999997,1.1
+NC10274,2025-10-26,East,Home Appliances,47722,7,6316.72,3,4.7,No,0,0,0,Low (0-10%),Medium (30k-60k),13.236494698461925,East_Home Appliances,Home Appliances_Normal,0,0,44381.46,3340.5400000000004,1.175
+NC10246,2025-12-27,North,Electronics,58953,1,5312.07,2,4.9,No,0,0,0,Low (0-10%),Medium (30k-60k),9.010686479059588,North_Electronics,Electronics_Normal,0,0,58363.47,589.53,1.6333333333333335
+NC10484,2025-07-04,South,Fashion,56746,31,1134.92,2,4.2,Yes,1,1,0,Very High (>30%),Medium (30k-60k),2.0,South_Fashion,Fashion_Normal,0,0,39154.74,17591.26,1.4000000000000001
+NC10036,2025-08-08,South,Electronics,107043,28,2140.86,10,3.0,Yes,1,1,1,High (21-30%),Very High (>90k),2.0,South_Electronics,Electronics_Late,1,1,77070.95999999999,29972.040000000005,0.2727272727272727
+NC10171,2025-09-10,East,Home Appliances,62802,17,5155.01,2,4.7,No,0,0,0,Medium (11-20%),High (60k-90k),8.208353237158054,East_Home Appliances,Home Appliances_Normal,0,0,52125.659999999996,10676.34,1.5666666666666667
+NC10512,2025-03-04,East,Furniture,38104,26,5404.95,6,4.7,No,0,1,1,High (21-30%),Medium (30k-60k),14.184731261809782,East_Furniture,Furniture_Late,0,1,28196.96,9907.04,0.6714285714285715
+NC10062,2025-06-01,East,Electronics,41885,33,837.7,7,3.4,Yes,1,1,1,Very High (>30%),Medium (30k-60k),2.0,East_Electronics,Electronics_Late,1,1,28062.949999999997,13822.050000000001,0.425
+NC10324,2025-06-23,South,Electronics,41242,35,824.84,4,4.6,Yes,1,1,0,Very High (>30%),Medium (30k-60k),2.0,South_Electronics,Electronics_Normal,0,0,26807.3,14434.699999999999,0.9199999999999999
+NC10339,2025-03-03,North,Furniture,39487,24,5510.76,4,4.5,No,0,1,0,High (21-30%),Medium (30k-60k),13.95588421505812,North_Furniture,Furniture_Normal,0,0,30010.12,9476.88,0.9
+NC10009,2025-11-22,East,Fashion,84216,35,1684.32,2,4.8,Yes,1,1,0,Very High (>30%),High (60k-90k),2.0,East_Fashion,Fashion_Normal,0,0,54740.4,29475.6,1.5999999999999999
+NC10167,2025-10-28,North,Home Appliances,72955,9,8959.22,5,4.9,No,0,0,0,Low (0-10%),High (60k-90k),12.28047426495785,North_Home Appliances,Home Appliances_Normal,0,0,66389.05,6565.95,0.8166666666666668
+NC10238,2025-01-10,North,Fashion,107080,8,5409.12,9,3.7,No,0,0,1,Low (0-10%),Very High (>90k),5.05147553231229,North_Fashion,Fashion_Late,0,0,98513.6,8566.4,0.37
+NC10110,2025-02-10,East,Home Appliances,98484,2,15968.76,6,5.0,No,0,0,1,Low (0-10%),Very High (>90k),16.21457292555136,East_Home Appliances,Home Appliances_Late,0,0,96514.31999999999,1969.68,0.7142857142857143
+NC10367,2025-08-10,North,Electronics,43469,6,3131.62,2,4.8,No,0,0,0,Low (0-10%),Medium (30k-60k),7.204260507488095,North_Electronics,Electronics_Normal,0,0,40860.86,2608.14,1.5999999999999999
+NC10155,2025-12-24,South,Furniture,100483,20,18506.77,4,4.4,No,0,1,0,Medium (11-20%),Very High (>90k),18.417811968193625,South_Furniture,Furniture_Normal,0,0,80386.40000000001,20096.600000000002,0.8800000000000001
+NC10051,2025-05-09,South,Furniture,88270,26,14056.01,8,3.2,Yes,1,1,1,High (21-30%),High (60k-90k),15.923881273365808,South_Furniture,Furniture_Late,1,1,65319.799999999996,22950.2,0.35555555555555557
+NC10005,2025-02-05,West,Electronics,70330,0,7424.6,4,4.6,No,0,0,0,Low (0-10%),High (60k-90k),10.556803639982938,West_Electronics,Electronics_Normal,0,0,70330.0,0.0,0.9199999999999999
+NC10514,2025-03-31,West,Furniture,100961,8,24204.48,5,4.7,No,0,0,0,Low (0-10%),Very High (>90k),23.974089004665167,West_Furniture,Furniture_Normal,0,0,92884.12000000001,8076.88,0.7833333333333333
+NC10289,2025-03-25,South,Fashion,50441,22,1008.82,8,4.1,No,0,1,1,High (21-30%),Medium (30k-60k),2.0,South_Fashion,Fashion_Late,0,1,39343.98,11097.02,0.4555555555555555
+NC10478,2025-10-22,West,Furniture,20126,24,2537.67,2,4.8,No,0,1,0,High (21-30%),Low (<30k),12.60891384279042,West_Furniture,Furniture_Normal,0,0,15295.76,4830.24,1.5999999999999999
+NC10227,2025-08-31,West,Home Appliances,90863,29,3418.72,5,5.0,No,0,1,0,High (21-30%),Very High (>90k),3.762499587290756,West_Home Appliances,Home Appliances_Normal,0,0,64512.729999999996,26350.269999999997,0.8333333333333334
+NC10204,2025-02-03,South,Home Appliances,78328,30,2600.76,9,3.0,No,0,1,1,High (21-30%),High (60k-90k),3.3203452149933614,South_Home Appliances,Home Appliances_Late,1,1,54829.6,23498.399999999998,0.3
+NC10286,2025-09-13,South,Electronics,118730,26,2374.6,3,4.6,No,0,1,0,High (21-30%),Very High (>90k),2.0,South_Electronics,Electronics_Normal,0,0,87860.2,30869.8,1.15
+NC10017,2025-08-14,West,Electronics,58466,4,5528.53,4,5.0,No,0,0,0,Low (0-10%),Medium (30k-60k),9.455974412479048,West_Electronics,Electronics_Normal,0,0,56127.36,2338.64,1.0
+NC10092,2025-11-30,West,Home Appliances,90742,2,14450.88,3,5.0,No,0,0,0,Low (0-10%),Very High (>90k),15.925238588525708,West_Home Appliances,Home Appliances_Normal,0,0,88927.16,1814.8400000000001,1.25
+NC10472,2025-02-03,South,Furniture,77146,30,10622.17,2,4.2,Yes,1,1,0,High (21-30%),High (60k-90k),13.768918673683665,South_Furniture,Furniture_Normal,0,0,54002.2,23143.8,1.4000000000000001
+NC10456,2025-01-21,North,Fashion,80815,0,7055.5,2,4.8,No,0,0,0,Low (0-10%),High (60k-90k),8.730433706613871,North_Fashion,Fashion_Normal,0,0,80815.0,0.0,1.5999999999999999
+NC10270,2025-01-10,North,Fashion,66687,35,1333.74,9,3.3,No,0,1,1,Very High (>30%),High (60k-90k),2.0,North_Fashion,Fashion_Late,1,1,43346.55,23340.449999999997,0.32999999999999996
+NC10011,2025-09-01,North,Home Appliances,56732,10,7298.82,4,4.4,No,0,0,0,Low (0-10%),Medium (30k-60k),12.865437495593316,North_Home Appliances,Home Appliances_Normal,0,0,51058.8,5673.200000000001,0.8800000000000001
+NC10254,2025-05-09,West,Home Appliances,101458,21,7282.66,2,5.0,No,0,1,0,High (21-30%),Very High (>90k),7.178004691596522,West_Home Appliances,Home Appliances_Normal,0,0,80151.82,21306.18,1.6666666666666667
+NC10383,2025-04-18,South,Home Appliances,28525,22,1046.52,10,3.7,No,0,1,1,High (21-30%),Low (<30k),3.6687817703768624,South_Home Appliances,Home Appliances_Late,0,1,22249.5,6275.5,0.33636363636363636
+NC10392,2025-11-01,South,Furniture,86276,22,14293.96,7,3.4,Yes,1,1,1,High (21-30%),High (60k-90k),16.56771292132227,South_Furniture,Furniture_Late,1,1,67295.28,18980.72,0.425
+NC10351,2025-05-19,North,Furniture,91577,23,15472.34,8,3.6,No,0,1,1,High (21-30%),Very High (>90k),16.89544317896415,North_Furniture,Furniture_Late,0,1,70514.29000000001,21062.71,0.4
+NC10312,2025-09-16,West,Furniture,91144,24,14949.77,2,4.8,No,0,1,0,High (21-30%),Very High (>90k),16.40236329325024,West_Furniture,Furniture_Normal,0,0,69269.44,21874.559999999998,1.5999999999999999
+NC10275,2025-05-26,North,Furniture,14951,0,3855.28,3,4.7,No,0,0,0,Low (0-10%),Low (<30k),25.786101264129492,North_Furniture,Furniture_Normal,0,0,14951.0,0.0,1.175
+NC10492,2025-05-17,North,Furniture,39859,12,8415.13,6,4.4,No,0,0,1,Medium (11-20%),Medium (30k-60k),21.11224566597255,North_Furniture,Furniture_Late,0,0,35075.92,4783.08,0.6285714285714287
+NC10391,2025-02-06,North,Home Appliances,87228,2,13728.99,4,4.5,No,0,0,0,Low (0-10%),High (60k-90k),15.739200715366625,North_Home Appliances,Home Appliances_Normal,0,0,85483.44,1744.56,0.9
+NC10184,2025-10-20,South,Furniture,13349,30,1316.61,2,4.3,Yes,1,1,0,High (21-30%),Low (<30k),9.862985991460034,South_Furniture,Furniture_Normal,0,0,9344.3,4004.7,1.4333333333333333
+NC10048,2025-12-16,North,Fashion,30440,3,1546.06,10,3.5,No,0,0,1,Low (0-10%),Medium (30k-60k),5.07904073587385,North_Fashion,Fashion_Late,0,0,29526.8,913.1999999999999,0.3181818181818182
+NC10233,2025-06-14,West,Fashion,61996,10,2785.78,4,4.5,No,0,0,0,Low (0-10%),High (60k-90k),4.493483450545196,West_Fashion,Fashion_Normal,0,0,55796.4,6199.6,0.9
+NC10363,2025-06-25,North,Home Appliances,43816,34,876.32,6,4.4,Yes,1,1,1,Very High (>30%),Medium (30k-60k),2.0,North_Home Appliances,Home Appliances_Late,0,1,28918.559999999998,14897.44,0.6285714285714287
+NC10518,2025-07-30,East,Fashion,109555,7,6274.52,10,3.6,No,0,0,1,Low (0-10%),Very High (>90k),5.727278535895213,East_Fashion,Fashion_Late,0,0,101886.15,7668.85,0.32727272727272727
+NC10041,2025-11-08,West,Furniture,61635,5,15399.01,5,5.0,No,0,0,0,Low (0-10%),High (60k-90k),24.98419729050053,West_Furniture,Furniture_Normal,0,0,58553.25,3081.75,0.8333333333333334
+NC10141,2025-04-24,North,Home Appliances,51835,0,8714.3,7,3.6,Yes,1,0,1,Low (0-10%),Medium (30k-60k),16.8116137744767,North_Home Appliances,Home Appliances_Late,0,0,51835.0,0.0,0.45
+NC10203,2025-06-16,North,Electronics,14422,9,288.44,7,3.6,No,0,0,1,Low (0-10%),Low (<30k),2.0,North_Electronics,Electronics_Late,0,0,13124.02,1297.98,0.45
+NC10462,2025-11-19,East,Fashion,24476,9,489.52,3,5.0,No,0,0,0,Low (0-10%),Low (<30k),2.0,East_Fashion,Fashion_Normal,0,0,22273.16,2202.84,1.25
+NC10170,2025-08-27,North,Home Appliances,89432,32,3012.55,4,4.5,Yes,1,1,0,Very High (>30%),High (60k-90k),3.368536988997227,North_Home Appliances,Home Appliances_Normal,0,0,60813.759999999995,28618.24,0.9
+NC10024,2025-06-01,West,Fashion,55895,7,3367.81,4,4.9,No,0,0,0,Low (0-10%),Medium (30k-60k),6.025243760622596,West_Fashion,Fashion_Normal,0,0,51982.35,3912.6500000000005,0.9800000000000001
+NC10321,2025-01-22,West,Home Appliances,81261,0,13708.98,2,5.0,No,0,0,0,Low (0-10%),High (60k-90k),16.870306789234686,West_Home Appliances,Home Appliances_Normal,0,0,81261.0,0.0,1.6666666666666667
+NC10112,2025-01-01,East,Electronics,5515,19,110.3,3,4.8,No,0,0,0,Medium (11-20%),Low (<30k),2.0,East_Electronics,Electronics_Normal,0,0,4467.150000000001,1047.85,1.2
+NC10237,2025-01-16,North,Electronics,6173,7,123.46,7,3.3,No,0,0,1,Low (0-10%),Low (<30k),2.0,North_Electronics,Electronics_Late,1,0,5740.889999999999,432.11,0.4125
+NC10480,2025-08-25,South,Fashion,95553,29,1911.06,8,3.2,No,0,1,1,High (21-30%),Very High (>90k),2.0,South_Fashion,Fashion_Late,1,1,67842.62999999999,27710.37,0.35555555555555557
+NC10424,2025-01-26,East,Furniture,107654,6,25997.46,8,3.9,No,0,0,1,Low (0-10%),Very High (>90k),24.149088747282963,East_Furniture,Furniture_Late,0,0,101194.76,6459.24,0.43333333333333335
+NC10398,2025-12-04,North,Furniture,44883,2,11361.29,4,4.8,No,0,0,0,Low (0-10%),Medium (30k-60k),25.313125236726602,North_Furniture,Furniture_Normal,0,0,43985.34,897.66,0.96
+NC10334,2025-04-30,South,Electronics,113966,24,2279.32,10,3.5,No,0,1,1,High (21-30%),Very High (>90k),2.0,South_Electronics,Electronics_Late,0,1,86614.16,27351.84,0.3181818181818182
+NC10235,2025-10-10,South,Electronics,28950,29,579.0,10,2.8,Yes,1,1,1,High (21-30%),Low (<30k),2.0,South_Electronics,Electronics_Late,1,1,20554.5,8395.5,0.2545454545454545
+NC10082,2025-12-12,North,Furniture,87537,16,17217.7,7,3.8,No,0,0,1,Medium (11-20%),High (60k-90k),19.669054228497664,North_Furniture,Furniture_Late,0,0,73531.08,14005.92,0.475
+NC10148,2025-05-23,North,Fashion,47643,14,1385.79,6,5.0,No,0,0,1,Medium (11-20%),Medium (30k-60k),2.9086959259492473,North_Fashion,Fashion_Late,0,0,40972.979999999996,6670.02,0.7142857142857143
+NC10192,2025-04-24,East,Electronics,24010,6,949.93,5,5.0,No,0,0,0,Low (0-10%),Low (<30k),3.956393169512703,East_Electronics,Electronics_Normal,0,0,22569.399999999998,1440.6,0.8333333333333334
+NC10139,2025-12-18,East,Electronics,44934,20,898.68,4,4.4,No,0,1,0,Medium (11-20%),Medium (30k-60k),2.0,East_Electronics,Electronics_Normal,0,0,35947.200000000004,8986.800000000001,0.8800000000000001
+NC10498,2025-08-01,North,Electronics,42471,35,849.42,6,4.9,Yes,1,1,1,Very High (>30%),Medium (30k-60k),2.0,North_Electronics,Electronics_Late,0,1,27606.15,14864.849999999999,0.7000000000000001
+NC10186,2025-09-03,North,Fashion,39154,1,2572.21,4,4.6,No,0,0,0,Low (0-10%),Medium (30k-60k),6.569469275169842,North_Fashion,Fashion_Normal,0,0,38762.46,391.54,0.9199999999999999
+NC10053,2025-10-24,West,Home Appliances,34495,35,689.9,4,4.9,Yes,1,1,0,Very High (>30%),Medium (30k-60k),2.0,West_Home Appliances,Home Appliances_Normal,0,0,22421.75,12073.25,0.9800000000000001
+NC10183,2025-12-15,East,Fashion,3292,13,65.84,2,5.0,No,0,0,0,Medium (11-20%),Low (<30k),2.0,East_Fashion,Fashion_Normal,0,0,2864.04,427.96000000000004,1.6666666666666667
+NC10157,2025-06-15,West,Electronics,52770,9,3771.21,2,4.9,No,0,0,0,Low (0-10%),Medium (30k-60k),7.14650369528141,West_Electronics,Electronics_Normal,0,0,48020.700000000004,4749.3,1.6333333333333335
+NC10135,2025-03-08,North,Furniture,110033,14,23017.16,3,5.0,No,0,0,0,Medium (11-20%),Very High (>90k),20.918415384475566,North_Furniture,Furniture_Normal,0,0,94628.38,15404.62,1.25
+NC10245,2025-01-20,South,Electronics,61437,21,1239.64,5,4.7,Yes,1,1,0,High (21-30%),High (60k-90k),2.017741751713137,South_Electronics,Electronics_Normal,0,0,48535.23,12901.769999999999,0.7833333333333333
+NC10538,2025-10-03,East,Furniture,83070,13,17581.01,9,3.4,Yes,1,0,1,Medium (11-20%),High (60k-90k),21.164090526062353,East_Furniture,Furniture_Late,1,0,72270.9,10799.1,0.33999999999999997
+NC10064,2025-05-16,South,Furniture,82829,30,11596.21,5,4.4,No,0,1,0,High (21-30%),High (60k-90k),14.000181095992946,South_Furniture,Furniture_Normal,0,0,57980.299999999996,24848.7,0.7333333333333334
+NC10034,2025-04-05,West,Furniture,40252,2,9990.29,4,4.5,No,0,0,0,Low (0-10%),Medium (30k-60k),24.819363013017988,West_Furniture,Furniture_Normal,0,0,39446.96,805.04,0.9
+NC10218,2025-08-24,North,Home Appliances,90233,3,14351.79,9,3.7,No,0,0,1,Low (0-10%),Very High (>90k),15.905256391785711,North_Home Appliances,Home Appliances_Late,0,0,87526.01,2706.99,0.37
+NC10109,2025-02-03,South,Furniture,79961,27,11579.82,9,3.1,Yes,1,1,1,High (21-30%),High (60k-90k),14.481834894511072,South_Furniture,Furniture_Late,1,1,58371.53,21589.47,0.31
+NC10068,2025-08-01,North,Electronics,26918,18,538.36,6,5.0,No,0,0,1,Medium (11-20%),Low (<30k),2.0,North_Electronics,Electronics_Late,0,0,22072.760000000002,4845.24,0.7142857142857143
+NC10256,2025-10-17,South,Furniture,115738,28,16447.65,7,2.7,Yes,1,1,1,High (21-30%),Very High (>90k),14.2111061189929,South_Furniture,Furniture_Late,1,1,83331.36,32406.640000000003,0.3375
+NC10247,2025-07-30,South,Home Appliances,45491,22,2729.77,5,5.0,No,0,1,0,High (21-30%),Medium (30k-60k),6.000681453474313,South_Home Appliances,Home Appliances_Normal,0,0,35482.98,10008.02,0.8333333333333334
+NC10368,2025-03-10,South,Electronics,75373,35,1507.46,9,2.9,Yes,1,1,1,Very High (>30%),High (60k-90k),2.0,South_Electronics,Electronics_Late,1,1,48992.450000000004,26380.55,0.29
+NC10072,2025-03-31,West,Fashion,38606,25,772.12,4,5.0,No,0,1,0,High (21-30%),Medium (30k-60k),2.0,West_Fashion,Fashion_Normal,0,0,28954.5,9651.5,1.0
+NC10260,2025-05-07,South,Furniture,54034,34,6057.32,10,3.6,Yes,1,1,1,Very High (>30%),Medium (30k-60k),11.210200984565272,South_Furniture,Furniture_Late,0,1,35662.439999999995,18371.56,0.32727272727272727
+NC10099,2025-05-04,East,Home Appliances,68290,18,5964.71,3,4.4,No,0,0,0,Medium (11-20%),High (60k-90k),8.734382779323473,East_Home Appliances,Home Appliances_Normal,0,0,55997.8,12292.199999999999,1.1
+NC10419,2025-01-04,East,Home Appliances,30780,1,4041.89,4,4.9,No,0,0,0,Low (0-10%),Medium (30k-60k),13.13154645873944,East_Home Appliances,Home Appliances_Normal,0,0,30472.2,307.8,0.9800000000000001
+NC10030,2025-09-05,South,Fashion,13799,34,275.98,4,4.6,No,0,1,0,Very High (>30%),Low (<30k),2.0,South_Fashion,Fashion_Normal,0,0,9107.339999999998,4691.660000000001,0.9199999999999999
+NC10470,2025-02-05,North,Furniture,69639,9,16099.54,7,3.1,Yes,1,0,1,Low (0-10%),High (60k-90k),23.118568618159365,North_Furniture,Furniture_Late,1,0,63371.490000000005,6267.51,0.3875
+NC10482,2025-05-10,North,Fashion,30086,23,601.72,10,3.5,No,0,1,1,High (21-30%),Medium (30k-60k),2.0,North_Fashion,Fashion_Late,0,1,23166.22,6919.780000000001,0.3181818181818182
+NC10402,2025-08-28,West,Electronics,35016,21,700.32,2,5.0,No,0,1,0,High (21-30%),Medium (30k-60k),2.0,West_Electronics,Electronics_Normal,0,0,27662.640000000003,7353.36,1.6666666666666667
+NC10261,2025-10-19,North,Home Appliances,25488,12,2275.49,3,4.8,No,0,0,0,Medium (11-20%),Low (<30k),8.927691462649088,North_Home Appliances,Home Appliances_Normal,0,0,22429.44,3058.56,1.2
+NC10400,2025-12-20,North,Home Appliances,78211,33,1985.65,2,4.8,Yes,1,1,0,Very High (>30%),High (60k-90k),2.538837247957449,North_Home Appliances,Home Appliances_Normal,0,0,52401.369999999995,25809.63,1.5999999999999999
+NC10083,2025-01-17,South,Furniture,7193,29,650.35,2,3.9,Yes,1,1,0,High (21-30%),Low (<30k),9.041429167245933,South_Furniture,Furniture_Normal,0,0,5107.03,2085.97,1.3
+NC10177,2025-02-22,West,Furniture,65509,28,9036.39,3,4.3,No,0,1,0,High (21-30%),High (60k-90k),13.794119891923245,West_Furniture,Furniture_Normal,0,0,47166.479999999996,18342.52,1.075
+NC10104,2025-07-14,East,Home Appliances,29441,30,588.82,5,4.2,No,0,1,0,High (21-30%),Low (<30k),2.0,East_Home Appliances,Home Appliances_Normal,0,0,20608.699999999997,8832.3,0.7000000000000001
+NC10090,2025-05-01,North,Home Appliances,69960,16,6625.68,9,3.1,Yes,1,0,1,Medium (11-20%),High (60k-90k),9.470668953687822,North_Home Appliances,Home Appliances_Late,1,0,58766.4,11193.6,0.31
+NC10533,2025-05-28,North,Fashion,67161,20,1343.22,2,4.5,No,0,1,0,Medium (11-20%),High (60k-90k),2.0,North_Fashion,Fashion_Normal,0,0,53728.8,13432.2,1.5
+NC10154,2025-08-31,North,Electronics,80590,9,5531.9,3,4.5,No,0,0,0,Low (0-10%),High (60k-90k),6.864251147785085,North_Electronics,Electronics_Normal,0,0,73336.90000000001,7253.099999999999,1.125
+NC10283,2025-12-05,West,Furniture,57784,22,9860.9,5,4.8,No,0,1,0,High (21-30%),Medium (30k-60k),17.06510452720476,West_Furniture,Furniture_Normal,0,0,45071.520000000004,12712.48,0.7999999999999999
+NC10164,2025-03-10,North,Electronics,82994,3,8076.86,2,4.6,No,0,0,0,Low (0-10%),High (60k-90k),9.731860134467551,North_Electronics,Electronics_Normal,0,0,80504.18,2489.8199999999997,1.5333333333333332
+NC10295,2025-11-22,East,Home Appliances,104896,34,2097.92,4,4.3,Yes,1,1,0,Very High (>30%),Very High (>90k),2.0,East_Home Appliances,Home Appliances_Normal,0,0,69231.35999999999,35664.64,0.86
+NC10387,2025-04-13,South,Home Appliances,90239,34,1804.78,5,4.8,Yes,1,1,0,Very High (>30%),Very High (>90k),2.0,South_Home Appliances,Home Appliances_Normal,0,0,59557.73999999999,30681.260000000002,0.7999999999999999
+NC10358,2025-11-28,North,Furniture,61706,24,9642.43,6,4.7,No,0,1,1,High (21-30%),High (60k-90k),15.626405860046026,North_Furniture,Furniture_Late,0,1,46896.56,14809.439999999999,0.6714285714285715
+NC10018,2025-06-01,South,Electronics,57730,28,1154.6,5,4.8,No,0,1,0,High (21-30%),Medium (30k-60k),1.9999999999999998,South_Electronics,Electronics_Normal,0,0,41565.6,16164.400000000001,0.7999999999999999
+NC10221,2025-07-21,East,Fashion,70874,18,1417.48,10,3.3,Yes,1,0,1,Medium (11-20%),High (60k-90k),2.0,East_Fashion,Fashion_Late,1,0,58116.68000000001,12757.32,0.3
+NC10304,2025-09-10,West,Furniture,53154,4,13299.35,2,5.0,No,0,0,0,Low (0-10%),Medium (30k-60k),25.020412386650108,West_Furniture,Furniture_Normal,0,0,51027.84,2126.16,1.6666666666666667
+NC10210,2025-11-02,North,Electronics,72322,24,1446.44,9,3.7,No,0,1,1,High (21-30%),High (60k-90k),2.0,North_Electronics,Electronics_Late,0,1,54964.72,17357.28,0.37
+NC10449,2025-06-10,West,Furniture,35362,35,3425.85,3,4.5,Yes,1,1,0,Very High (>30%),Medium (30k-60k),9.687941858492167,West_Furniture,Furniture_Normal,0,0,22985.3,12376.699999999999,1.125
+NC10264,2025-02-05,West,Fashion,29335,32,586.7,5,4.6,Yes,1,1,0,Very High (>30%),Low (<30k),2.0,West_Fashion,Fashion_Normal,0,0,19947.8,9387.2,0.7666666666666666
+NC10271,2025-05-15,East,Home Appliances,46946,24,1881.11,7,4.0,No,0,1,1,High (21-30%),Medium (30k-60k),4.006965449665572,East_Home Appliances,Home Appliances_Late,0,1,35678.96,11267.039999999999,0.5
+NC10511,2025-09-18,East,Electronics,119041,19,2633.91,2,4.7,No,0,0,0,Medium (11-20%),Very High (>90k),2.212607420972606,East_Electronics,Electronics_Normal,0,0,96423.21,22617.79,1.5666666666666667
+NC10317,2025-06-14,South,Fashion,60223,23,1204.46,10,3.1,Yes,1,1,1,High (21-30%),High (60k-90k),2.0,South_Fashion,Fashion_Late,1,1,46371.71,13851.29,0.2818181818181818
+NC10249,2025-12-09,South,Electronics,51468,27,1029.36,9,2.8,Yes,1,1,1,High (21-30%),Medium (30k-60k),1.9999999999999998,South_Electronics,Electronics_Late,1,1,37571.64,13896.36,0.27999999999999997
+NC10159,2025-09-15,North,Fashion,59973,35,1199.46,4,4.7,Yes,1,1,0,Very High (>30%),Medium (30k-60k),2.0,North_Fashion,Fashion_Normal,0,0,38982.450000000004,20990.55,0.9400000000000001
+NC10134,2025-07-24,North,Home Appliances,50554,10,6296.79,3,4.7,No,0,0,0,Low (0-10%),Medium (30k-60k),12.455572259366223,North_Home Appliances,Home Appliances_Normal,0,0,45498.6,5055.400000000001,1.175
+NC10308,2025-02-05,North,Home Appliances,75351,13,7830.15,3,4.9,No,0,0,0,Medium (11-20%),High (60k-90k),10.39156746426723,North_Home Appliances,Home Appliances_Normal,0,0,65555.37,9795.630000000001,1.225
+NC10115,2025-12-31,West,Furniture,109149,26,17312.29,4,4.5,No,0,1,0,High (21-30%),Very High (>90k),15.861153102639511,West_Furniture,Furniture_Normal,0,0,80770.26,28378.74,0.9
+NC10096,2025-06-18,East,Furniture,23694,27,2621.5,2,4.7,No,0,1,0,High (21-30%),Low (<30k),11.063982442812527,East_Furniture,Furniture_Normal,0,0,17296.62,6397.38,1.5666666666666667
+NC10188,2025-08-03,East,Home Appliances,28626,27,1318.62,7,2.8,No,0,1,1,High (21-30%),Low (<30k),4.606371829805072,East_Home Appliances,Home Appliances_Late,1,1,20896.98,7729.02,0.35
+NC10163,2025-04-30,East,Electronics,31495,21,629.9,6,5.0,No,0,1,1,High (21-30%),Medium (30k-60k),2.0,East_Electronics,Electronics_Late,0,1,24881.050000000003,6613.95,0.7142857142857143
+NC10316,2025-09-07,West,Electronics,111690,26,2233.8,3,4.8,Yes,1,1,0,High (21-30%),Very High (>90k),2.0,West_Electronics,Electronics_Normal,0,0,82650.6,29039.4,1.2
+NC10528,2025-04-08,South,Fashion,84873,31,1697.46,8,3.0,Yes,1,1,1,Very High (>30%),High (60k-90k),2.0,South_Fashion,Fashion_Late,1,1,58562.369999999995,26310.63,0.3333333333333333
+NC10014,2025-04-09,North,Fashion,6701,2,134.02,4,5.0,No,0,0,0,Low (0-10%),Low (<30k),2.0,North_Fashion,Fashion_Normal,0,0,6566.98,134.02,1.0
+NC10279,2025-07-10,West,Electronics,36170,30,723.4,2,5.0,Yes,1,1,0,High (21-30%),Medium (30k-60k),2.0,West_Electronics,Electronics_Normal,0,0,25319.0,10851.0,1.6666666666666667
+NC10453,2025-10-13,South,Fashion,64846,30,1296.92,6,4.6,No,0,1,1,High (21-30%),High (60k-90k),2.0,South_Fashion,Fashion_Late,0,1,45392.2,19453.8,0.6571428571428571
+NC10423,2025-07-18,North,Furniture,63253,15,12997.26,6,4.5,No,0,0,1,Medium (11-20%),High (60k-90k),20.548053056772012,North_Furniture,Furniture_Late,0,0,53765.049999999996,9487.949999999999,0.6428571428571429
+NC10460,2025-07-09,West,Home Appliances,95227,29,4051.74,5,4.9,No,0,1,0,High (21-30%),Very High (>90k),4.254822686843017,West_Home Appliances,Home Appliances_Normal,0,0,67611.17,27615.829999999998,0.8166666666666668
+NC10314,2025-05-31,East,Furniture,56259,6,13883.53,5,4.4,No,0,0,0,Low (0-10%),Medium (30k-60k),24.67788264988713,East_Furniture,Furniture_Normal,0,0,52883.46,3375.54,0.7333333333333334
+NC10258,2025-03-09,South,Fashion,59129,25,1182.58,5,4.8,No,0,1,0,High (21-30%),Medium (30k-60k),2.0,South_Fashion,Fashion_Normal,0,0,44346.75,14782.25,0.7999999999999999
+NC10073,2025-01-27,West,Electronics,87068,10,5958.1,5,4.6,No,0,0,0,Low (0-10%),High (60k-90k),6.843042219874122,West_Electronics,Electronics_Normal,0,0,78361.2,8706.800000000001,0.7666666666666666
+NC10065,2025-02-22,North,Fashion,37548,5,1927.97,7,4.1,No,0,0,1,Low (0-10%),Medium (30k-60k),5.134680941727922,North_Fashion,Fashion_Late,0,0,35670.6,1877.4,0.5125
+NC10138,2025-07-07,West,Electronics,45359,27,907.18,5,4.3,No,0,1,0,High (21-30%),Medium (30k-60k),2.0,West_Electronics,Electronics_Normal,0,0,33112.07,12246.93,0.7166666666666667
+NC10531,2025-08-30,South,Home Appliances,14565,21,1034.31,8,3.5,No,0,1,1,High (21-30%),Low (<30k),7.1013388259526256,South_Home Appliances,Home Appliances_Late,0,1,11506.35,3058.65,0.3888888888888889
+NC10174,2025-02-04,North,Home Appliances,25207,14,2111.22,2,5.0,No,0,0,0,Medium (11-20%),Low (<30k),8.375530606577538,North_Home Appliances,Home Appliances_Normal,0,0,21678.02,3528.9800000000005,1.6666666666666667
+NC10095,2025-09-03,South,Fashion,26678,27,533.56,5,4.3,No,0,1,0,High (21-30%),Low (<30k),1.9999999999999998,South_Fashion,Fashion_Normal,0,0,19474.94,7203.06,0.7166666666666667
+NC10313,2025-01-16,North,Electronics,40707,17,1331.75,6,4.6,No,0,0,1,Medium (11-20%),Medium (30k-60k),3.271550347606063,North_Electronics,Electronics_Late,0,0,33786.81,6920.1900000000005,0.6571428571428571
+NC10213,2025-03-27,North,Fashion,79658,10,3939.19,3,5.0,No,0,0,0,Low (0-10%),High (60k-90k),4.945127921865977,North_Fashion,Fashion_Normal,0,0,71692.2,7965.8,1.25
+NC10336,2025-01-06,East,Electronics,92920,28,1858.4,5,4.4,No,0,1,0,High (21-30%),Very High (>90k),2.0,East_Electronics,Electronics_Normal,0,0,66902.4,26017.600000000002,0.7333333333333334
+NC10386,2025-01-26,North,Home Appliances,11546,35,230.92,7,3.1,No,0,1,1,Very High (>30%),Low (<30k),2.0,North_Home Appliances,Home Appliances_Late,1,1,7504.900000000001,4041.1,0.3875
+NC10328,2025-04-12,East,Furniture,119981,26,19299.9,9,3.4,Yes,1,1,1,High (21-30%),Very High (>90k),16.085796917845325,East_Furniture,Furniture_Late,1,1,88785.94,31195.06,0.33999999999999997
+NC10084,2025-02-04,South,Furniture,31214,28,3422.96,9,3.0,Yes,1,1,1,High (21-30%),Medium (30k-60k),10.966104952905747,South_Furniture,Furniture_Late,1,1,22474.079999999998,8739.92,0.3
+NC10027,2025-01-04,South,Furniture,87497,34,10135.12,9,2.7,No,0,1,1,Very High (>30%),High (60k-90k),11.583391430563335,South_Furniture,Furniture_Late,1,1,57748.01999999999,29748.980000000003,0.27
+NC10403,2025-01-20,North,Home Appliances,68692,5,10551.99,9,3.8,No,0,0,1,Low (0-10%),High (60k-90k),15.361308449309963,North_Home Appliances,Home Appliances_Late,0,0,65257.399999999994,3434.6000000000004,0.38
+NC10262,2025-05-31,North,Fashion,33684,23,673.68,4,4.8,Yes,1,1,0,High (21-30%),Medium (30k-60k),1.9999999999999998,North_Fashion,Fashion_Normal,0,0,25936.68,7747.320000000001,0.96
+NC10043,2025-07-04,South,Furniture,35842,32,3515.51,8,2.7,No,0,1,1,Very High (>30%),Medium (30k-60k),9.808353328497295,South_Furniture,Furniture_Late,1,1,24372.559999999998,11469.44,0.30000000000000004
+NC10168,2025-06-12,North,Home Appliances,72584,16,6952.07,7,3.8,No,0,0,1,Medium (11-20%),High (60k-90k),9.57796484073625,North_Home Appliances,Home Appliances_Late,0,0,60970.56,11613.44,0.475
+NC10448,2025-06-07,East,Furniture,19952,5,4318.64,3,4.3,No,0,0,0,Low (0-10%),Low (<30k),21.645148356054534,East_Furniture,Furniture_Normal,0,0,18954.399999999998,997.6,1.075
+NC10345,2025-05-24,South,Fashion,25071,34,501.42,6,4.3,Yes,1,1,1,Very High (>30%),Low (<30k),2.0,South_Fashion,Fashion_Late,0,1,16546.859999999997,8524.140000000001,0.6142857142857142
+NC10440,2025-05-01,South,Fashion,29567,33,591.34,2,4.8,Yes,1,1,0,Very High (>30%),Low (<30k),2.0,South_Fashion,Fashion_Normal,0,0,19809.89,9757.11,1.5999999999999999
+NC10206,2025-06-20,South,Fashion,19758,33,395.16,9,3.7,Yes,1,1,1,Very High (>30%),Low (<30k),2.0,South_Fashion,Fashion_Late,0,1,13237.859999999999,6520.14,0.37
+NC10086,2025-11-16,East,Fashion,45074,27,901.48,6,4.6,No,0,1,1,High (21-30%),Medium (30k-60k),2.0,East_Fashion,Fashion_Late,0,1,32904.02,12169.980000000001,0.6571428571428571
+NC10543,2025-09-16,West,Electronics,101896,9,6652.73,5,5.0,No,0,0,0,Low (0-10%),Very High (>90k),6.5289412734552865,West_Electronics,Electronics_Normal,0,0,92725.36,9170.64,0.8333333333333334
+NC10509,2025-06-15,North,Home Appliances,95277,28,4505.96,6,4.2,No,0,1,1,High (21-30%),Very High (>90k),4.729326070300282,North_Home Appliances,Home Appliances_Late,0,1,68599.44,26677.56,0.6
+NC10182,2025-12-24,West,Electronics,8486,13,169.72,3,4.7,No,0,0,0,Medium (11-20%),Low (<30k),2.0,West_Electronics,Electronics_Normal,0,0,7382.82,1103.18,1.175
+NC10475,2025-07-06,West,Furniture,39267,22,6192.33,4,4.7,Yes,1,1,0,High (21-30%),Medium (30k-60k),15.769806707922681,West_Furniture,Furniture_Normal,0,0,30628.260000000002,8638.74,0.9400000000000001
+NC10172,2025-08-07,South,Furniture,92387,28,13049.6,6,4.0,No,0,1,1,High (21-30%),Very High (>90k),14.124930996785261,South_Furniture,Furniture_Late,0,1,66518.64,25868.360000000004,0.5714285714285714
+NC10215,2025-11-13,West,Electronics,114718,3,10773.47,3,4.6,No,0,0,0,Low (0-10%),Very High (>90k),9.39126379469656,West_Electronics,Electronics_Normal,0,0,111276.45999999999,3441.54,1.15
+NC10479,2025-11-12,South,Furniture,61226,33,7653.22,2,4.8,Yes,1,1,0,Very High (>30%),High (60k-90k),12.499951001208636,South_Furniture,Furniture_Normal,0,0,41021.42,20204.58,1.5999999999999999
+NC10196,2025-04-04,East,Electronics,109502,17,4127.34,4,5.0,No,0,0,0,Medium (11-20%),Very High (>90k),3.769191430293511,East_Electronics,Electronics_Normal,0,0,90886.65999999999,18615.34,1.0
+NC10013,2025-03-26,West,Furniture,43884,27,6301.61,5,4.3,No,0,1,0,High (21-30%),Medium (30k-60k),14.359698295506334,West_Furniture,Furniture_Normal,0,0,32035.32,11848.68,0.7166666666666667
+NC10026,2025-12-27,South,Electronics,53296,25,1065.92,2,5.0,No,0,1,0,High (21-30%),Medium (30k-60k),2.0,South_Electronics,Electronics_Normal,0,0,39972.0,13324.0,1.6666666666666667
+NC10114,2025-02-18,North,Furniture,76097,14,15343.05,2,5.0,No,0,0,0,Medium (11-20%),High (60k-90k),20.162489979894083,North_Furniture,Furniture_Normal,0,0,65443.42,10653.580000000002,1.6666666666666667
+NC10038,2025-07-13,East,Electronics,94718,20,1894.36,5,4.4,No,0,1,0,Medium (11-20%),Very High (>90k),2.0,East_Electronics,Electronics_Normal,0,0,75774.40000000001,18943.600000000002,0.7333333333333334
+NC10447,2025-09-09,South,Electronics,79900,30,1598.0,10,2.8,No,0,1,1,High (21-30%),High (60k-90k),2.0,South_Electronics,Electronics_Late,1,1,55930.0,23970.0,0.2545454545454545
+NC10240,2025-09-12,West,Furniture,119487,17,22914.6,4,5.0,No,0,0,0,Medium (11-20%),Very High (>90k),19.177483743001332,West_Furniture,Furniture_Normal,0,0,99174.20999999999,20312.79,1.0
+NC10441,2025-01-28,West,Furniture,2106,13,42.12,4,4.5,No,0,0,0,Medium (11-20%),Low (<30k),2.0,West_Furniture,Furniture_Normal,0,0,1832.22,273.78000000000003,0.9
+NC10150,2025-12-09,East,Furniture,13444,29,1015.88,5,4.7,Yes,1,1,0,High (21-30%),Low (<30k),7.556382029157989,East_Furniture,Furniture_Normal,0,0,9545.24,3898.7599999999998,0.7833333333333333
+NC10469,2025-08-07,South,Electronics,114591,22,2291.82,8,4.0,No,0,1,1,High (21-30%),Very High (>90k),2.0,South_Electronics,Electronics_Late,0,1,89380.98,25210.02,0.4444444444444444
+NC10507,2025-09-22,North,Home Appliances,64387,24,4316.86,3,5.0,No,0,1,0,High (21-30%),High (60k-90k),6.704552161150542,North_Home Appliances,Home Appliances_Normal,0,0,48934.12,15452.88,1.25
+NC10118,2025-05-26,North,Furniture,88140,30,11968.3,9,3.1,Yes,1,1,1,High (21-30%),High (60k-90k),13.578738370773769,North_Furniture,Furniture_Late,1,1,61697.99999999999,26442.0,0.31
+NC10046,2025-10-05,South,Home Appliances,68850,25,4204.37,6,4.6,No,0,1,1,High (21-30%),High (60k-90k),6.106564996368918,South_Home Appliances,Home Appliances_Late,0,1,51637.5,17212.5,0.6571428571428571
+NC10539,2025-05-31,South,Furniture,6773,26,258.0,8,2.7,Yes,1,1,1,High (21-30%),Low (<30k),3.809242580835671,South_Furniture,Furniture_Late,1,1,5012.0199999999995,1760.98,0.30000000000000004
+NC10229,2025-12-14,North,Home Appliances,37882,10,4460.07,2,4.6,No,0,0,0,Low (0-10%),Medium (30k-60k),11.77358639987329,North_Home Appliances,Home Appliances_Normal,0,0,34093.8,3788.2000000000003,1.5333333333333332
+NC10320,2025-09-29,East,Home Appliances,105393,20,8191.37,4,4.5,No,0,1,0,Medium (11-20%),Very High (>90k),7.772214473447003,East_Home Appliances,Home Appliances_Normal,0,0,84314.40000000001,21078.600000000002,0.9
+NC10214,2025-02-25,North,Fashion,76871,11,2990.99,5,5.0,No,0,0,0,Medium (11-20%),High (60k-90k),3.8909211536210013,North_Fashion,Fashion_Normal,0,0,68415.19,8455.81,0.8333333333333334
+NC10487,2025-03-01,North,Fashion,28348,19,566.96,9,3.1,No,0,0,1,Medium (11-20%),Low (<30k),2.0,North_Fashion,Fashion_Late,1,0,22961.88,5386.12,0.31
+NC10506,2025-01-20,West,Furniture,98350,34,11808.45,5,4.5,Yes,1,1,0,Very High (>30%),Very High (>90k),12.006558210472802,West_Furniture,Furniture_Normal,0,0,64910.99999999999,33439.0,0.75
+NC10004,2025-04-12,East,Electronics,22652,17,453.04,7,3.2,Yes,1,0,1,Medium (11-20%),Low (<30k),2.0,East_Electronics,Electronics_Late,1,0,18801.16,3850.84,0.4
+NC10061,2025-07-22,East,Electronics,67085,17,2665.2,3,5.0,Yes,1,0,0,Medium (11-20%),High (60k-90k),3.9728702392487136,East_Electronics,Electronics_Normal,0,0,55680.549999999996,11404.45,1.25
+NC10015,2025-09-06,South,Electronics,77535,27,1550.7,2,4.8,No,0,1,0,High (21-30%),High (60k-90k),2.0,South_Electronics,Electronics_Normal,0,0,56600.549999999996,20934.45,1.5999999999999999
+NC10067,2025-07-08,East,Furniture,13666,2,2969.49,7,3.3,Yes,1,0,1,Low (0-10%),Low (<30k),21.729035562710376,East_Furniture,Furniture_Late,1,0,13392.68,273.32,0.4125
+NC10379,2025-04-04,West,Fashion,103309,34,2066.18,3,4.2,Yes,1,1,0,Very High (>30%),Very High (>90k),1.9999999999999998,West_Fashion,Fashion_Normal,0,0,68183.93999999999,35125.060000000005,1.05
+NC10405,2025-06-29,West,Fashion,97856,5,7025.84,5,5.0,No,0,0,0,Low (0-10%),Very High (>90k),7.17977436232832,West_Fashion,Fashion_Normal,0,0,92963.2,4892.8,0.8333333333333334
+NC10532,2025-12-27,East,Electronics,104368,13,5280.63,4,4.7,No,0,0,0,Medium (11-20%),Very High (>90k),5.059625555725893,East_Electronics,Electronics_Normal,0,0,90800.16,13567.84,0.9400000000000001
+NC10502,2025-03-13,North,Furniture,52754,11,11135.8,9,3.3,Yes,1,0,1,Medium (11-20%),Medium (30k-60k),21.10892065056678,North_Furniture,Furniture_Late,1,0,46951.06,5802.94,0.32999999999999996
+NC10091,2025-03-23,East,Home Appliances,102181,11,12610.62,8,3.7,No,0,0,1,Medium (11-20%),Very High (>90k),12.34145291198951,East_Home Appliances,Home Appliances_Late,0,0,90941.09,11239.91,0.41111111111111115
+NC10483,2025-02-06,South,Furniture,51045,30,5917.53,7,3.1,No,0,1,1,High (21-30%),Medium (30k-60k),11.592771084337349,South_Furniture,Furniture_Late,1,1,35731.5,15313.5,0.3875
+NC10300,2025-12-29,North,Home Appliances,9608,6,1071.02,9,3.4,No,0,0,1,Low (0-10%),Low (<30k),11.147169025811824,North_Home Appliances,Home Appliances_Late,1,0,9031.519999999999,576.48,0.33999999999999997
+NC10420,2025-09-11,East,Furniture,9424,29,297.89,2,4.3,Yes,1,1,0,High (21-30%),Low (<30k),3.1609719864176573,East_Furniture,Furniture_Normal,0,0,6691.04,2732.96,1.4333333333333333
+NC10111,2025-12-10,East,Home Appliances,26617,9,2542.07,3,4.5,No,0,0,0,Low (0-10%),Low (<30k),9.550550400120224,East_Home Appliances,Home Appliances_Normal,0,0,24221.47,2395.5299999999997,1.125
+NC10356,2025-04-07,South,Fashion,91784,21,1835.68,3,5.0,No,0,1,0,High (21-30%),Very High (>90k),2.0,South_Fashion,Fashion_Normal,0,0,72509.36,19274.64,1.25
+NC10037,2025-07-07,South,Fashion,48673,28,973.46,7,3.4,Yes,1,1,1,High (21-30%),Medium (30k-60k),2.0,South_Fashion,Fashion_Late,1,1,35044.56,13628.44,0.425
+NC10302,2025-08-04,South,Fashion,112202,27,2244.04,10,3.1,Yes,1,1,1,High (21-30%),Very High (>90k),2.0,South_Fashion,Fashion_Late,1,1,81907.45999999999,30294.54,0.2818181818181818
+NC10056,2025-07-02,South,Fashion,15410,35,308.2,4,4.7,Yes,1,1,0,Very High (>30%),Low (<30k),2.0,South_Fashion,Fashion_Normal,0,0,10016.5,5393.5,0.9400000000000001
+NC10436,2025-09-03,South,Home Appliances,92485,35,1849.7,6,4.7,Yes,1,1,1,Very High (>30%),Very High (>90k),2.0,South_Home Appliances,Home Appliances_Late,0,1,60115.25,32369.749999999996,0.6714285714285715
+NC10322,2025-12-27,West,Home Appliances,62262,24,3848.86,2,5.0,No,0,1,0,High (21-30%),High (60k-90k),6.181715974430632,West_Home Appliances,Home Appliances_Normal,0,0,47319.12,14942.88,1.6666666666666667
+NC10355,2025-02-06,West,Fashion,45421,1,3954.71,2,5.0,No,0,0,0,Low (0-10%),Medium (30k-60k),8.706787609255631,West_Fashion,Fashion_Normal,0,0,44966.79,454.21000000000004,1.6666666666666667
+NC10497,2025-09-21,South,Fashion,40671,26,813.42,7,2.9,Yes,1,1,1,High (21-30%),Medium (30k-60k),2.0,South_Fashion,Fashion_Late,1,1,30096.54,10574.460000000001,0.3625
+NC10236,2025-01-01,North,Electronics,35351,1,2693.04,7,3.9,No,0,0,1,Low (0-10%),Medium (30k-60k),7.61800231959492,North_Electronics,Electronics_Late,0,0,34997.49,353.51,0.4875
+NC10253,2025-12-10,East,Furniture,41930,12,8969.18,10,3.4,Yes,1,0,1,Medium (11-20%),Medium (30k-60k),21.390841879322682,East_Furniture,Furniture_Late,1,0,36898.4,5031.599999999999,0.3090909090909091
+NC10421,2025-03-04,West,Electronics,99949,27,1998.98,2,4.2,No,0,1,0,High (21-30%),Very High (>90k),2.0,West_Electronics,Electronics_Normal,0,0,72962.77,26986.230000000003,1.4000000000000001
+NC10333,2025-11-08,West,Home Appliances,100205,10,13326.67,3,4.9,No,0,0,0,Low (0-10%),Very High (>90k),13.299406217254628,West_Home Appliances,Home Appliances_Normal,0,0,90184.5,10020.5,1.225
+NC10360,2025-06-10,East,Electronics,91055,13,5305.88,3,5.0,No,0,0,0,Medium (11-20%),Very High (>90k),5.827115479655154,East_Electronics,Electronics_Normal,0,0,79217.85,11837.15,1.25
+NC10319,2025-04-03,South,Home Appliances,86869,26,5259.75,2,4.6,No,0,1,0,High (21-30%),High (60k-90k),6.054806662906215,South_Home Appliances,Home Appliances_Normal,0,0,64283.06,22585.940000000002,1.5333333333333332
+NC10323,2025-09-04,North,Furniture,94869,6,22726.86,9,3.8,No,0,0,1,Low (0-10%),Very High (>90k),23.956044651045126,North_Furniture,Furniture_Late,0,0,89176.86,5692.139999999999,0.38
+NC10028,2025-07-03,East,Home Appliances,57016,29,2599.29,2,4.2,Yes,1,1,0,High (21-30%),Medium (30k-60k),4.558878209625368,East_Home Appliances,Home Appliances_Normal,0,0,40481.36,16534.64,1.4000000000000001
+NC10189,2025-02-10,South,Fashion,104822,25,2096.44,8,3.5,No,0,1,1,High (21-30%),Very High (>90k),2.0,South_Fashion,Fashion_Late,0,1,78616.5,26205.5,0.3888888888888889
+NC10033,2025-05-13,East,Furniture,84629,23,14457.02,10,3.9,No,0,1,1,High (21-30%),High (60k-90k),17.082820309822875,East_Furniture,Furniture_Late,0,1,65164.33,19464.670000000002,0.35454545454545455
+NC10505,2025-10-31,West,Furniture,35158,27,4957.54,4,5.0,No,0,1,0,High (21-30%),Medium (30k-60k),14.10074520734968,West_Furniture,Furniture_Normal,0,0,25665.34,9492.66,1.0
+NC10059,2025-06-01,North,Fashion,38624,34,772.48,2,4.5,Yes,1,1,0,Very High (>30%),Medium (30k-60k),2.0,North_Fashion,Fashion_Normal,0,0,25491.839999999997,13132.160000000002,1.5
+NC10212,2025-08-13,West,Furniture,79533,13,16602.56,5,5.0,No,0,0,0,Medium (11-20%),High (60k-90k),20.87505815196208,West_Furniture,Furniture_Normal,0,0,69193.71,10339.29,0.8333333333333334
+NC10248,2025-04-06,East,Furniture,102691,21,18112.18,5,4.5,No,0,1,0,High (21-30%),Very High (>90k),17.63755343701006,East_Furniture,Furniture_Normal,0,0,81125.89,21565.11,0.75
+NC10311,2025-01-13,North,Electronics,111587,30,2231.74,7,3.1,Yes,1,1,1,High (21-30%),Very High (>90k),1.9999999999999998,North_Electronics,Electronics_Late,1,1,78110.9,33476.1,0.3875
+NC10432,2025-10-24,South,Electronics,14083,34,281.66,5,4.3,No,0,1,0,Very High (>30%),Low (<30k),2.0,South_Electronics,Electronics_Normal,0,0,9294.779999999999,4788.22,0.7166666666666667
+NC10108,2025-10-09,North,Electronics,62564,13,3628.69,4,4.4,No,0,0,0,Medium (11-20%),High (60k-90k),5.799964836007928,North_Electronics,Electronics_Normal,0,0,54430.68,8133.320000000001,0.8800000000000001
+NC10120,2025-03-07,North,Furniture,89233,5,22457.5,7,3.9,No,0,0,1,Low (0-10%),High (60k-90k),25.167258749565747,North_Furniture,Furniture_Late,0,0,84771.34999999999,4461.650000000001,0.4875
+NC10239,2025-09-24,North,Furniture,104827,20,18631.13,9,3.3,Yes,1,1,1,Medium (11-20%),Very High (>90k),17.77321682390987,North_Furniture,Furniture_Late,1,1,83861.6,20965.4,0.32999999999999996
+NC10510,2025-03-03,West,Fashion,103351,5,7025.7,4,4.9,No,0,0,0,Low (0-10%),Very High (>90k),6.797902294123907,West_Fashion,Fashion_Normal,0,0,98183.45,5167.55,0.9800000000000001
+NC10541,2025-03-19,East,Electronics,18746,11,374.92,7,4.0,No,0,0,1,Medium (11-20%),Low (<30k),2.0,East_Electronics,Electronics_Late,0,0,16683.94,2062.06,0.5
+NC10208,2025-11-05,East,Furniture,79318,3,20901.25,10,3.8,Yes,1,0,1,Low (0-10%),High (60k-90k),26.351206535716987,East_Furniture,Furniture_Late,0,0,76938.45999999999,2379.54,0.34545454545454546
+NC10255,2025-02-22,North,Fashion,20291,29,405.82,9,2.9,Yes,1,1,1,High (21-30%),Low (<30k),2.0,North_Fashion,Fashion_Late,1,1,14406.609999999999,5884.389999999999,0.29
+NC10408,2025-09-30,South,Furniture,105176,22,18355.86,5,4.8,No,0,1,0,High (21-30%),Very High (>90k),17.452517684642885,South_Furniture,Furniture_Normal,0,0,82037.28,23138.72,0.7999999999999999
+NC10520,2025-05-15,South,Fashion,71475,35,1429.5,5,4.5,Yes,1,1,0,Very High (>30%),High (60k-90k),2.0,South_Fashion,Fashion_Normal,0,0,46458.75,25016.25,0.75
+NC10292,2025-02-03,West,Fashion,30425,18,608.5,5,5.0,Yes,1,0,0,Medium (11-20%),Medium (30k-60k),2.0,West_Fashion,Fashion_Normal,0,0,24948.500000000004,5476.5,0.8333333333333334
+NC10160,2025-02-04,West,Furniture,57975,23,8861.59,3,5.0,No,0,1,0,High (21-30%),Medium (30k-60k),15.285191893057354,West_Furniture,Furniture_Normal,0,0,44640.75,13334.25,1.25
+NC10128,2025-09-02,East,Fashion,66039,2,5395.55,3,4.5,No,0,0,0,Low (0-10%),High (60k-90k),8.170247883826224,East_Fashion,Fashion_Normal,0,0,64718.22,1320.78,1.125
+NC10143,2025-01-27,West,Fashion,82787,10,3111.28,2,5.0,No,0,0,0,Low (0-10%),High (60k-90k),3.758174592629278,West_Fashion,Fashion_Normal,0,0,74508.3,8278.7,1.6666666666666667
+NC10357,2025-01-22,West,Electronics,93250,10,5807.75,2,4.9,No,0,0,0,Low (0-10%),Very High (>90k),6.228150134048257,West_Electronics,Electronics_Normal,0,0,83925.0,9325.0,1.6333333333333335
+NC10166,2025-05-27,East,Fashion,44942,3,2633.48,2,4.4,No,0,0,0,Low (0-10%),Medium (30k-60k),5.859730319077923,East_Fashion,Fashion_Normal,0,0,43593.74,1348.26,1.4666666666666668
+NC10241,2025-08-07,South,Furniture,53252,30,7449.54,3,4.8,Yes,1,1,0,High (21-30%),Medium (30k-60k),13.989221062119734,South_Furniture,Furniture_Normal,0,0,37276.399999999994,15975.599999999999,1.2
+NC10078,2025-10-29,West,Electronics,55744,8,4448.5,3,4.9,No,0,0,0,Low (0-10%),Medium (30k-60k),7.980231056257176,West_Electronics,Electronics_Normal,0,0,51284.48,4459.52,1.225
+NC10277,2025-12-15,North,Electronics,101635,26,2032.7,2,4.6,No,0,1,0,High (21-30%),Very High (>90k),2.0,North_Electronics,Electronics_Normal,0,0,75209.9,26425.100000000002,1.5333333333333332
+NC10335,2025-10-18,West,Electronics,7792,33,155.84,5,4.6,Yes,1,1,0,Very High (>30%),Low (<30k),2.0,West_Electronics,Electronics_Normal,0,0,5220.639999999999,2571.36,0.7666666666666666
+NC10012,2025-08-19,West,Home Appliances,49161,7,6785.41,2,4.8,No,0,0,0,Low (0-10%),Medium (30k-60k),13.802424686235023,West_Home Appliances,Home Appliances_Normal,0,0,45719.729999999996,3441.2700000000004,1.5999999999999999
+NC10364,2025-09-15,West,Electronics,8205,9,164.1,4,4.8,No,0,0,0,Low (0-10%),Low (<30k),2.0,West_Electronics,Electronics_Normal,0,0,7466.55,738.4499999999999,0.96
+NC10467,2025-07-20,West,Fashion,36789,15,735.78,5,5.0,No,0,0,0,Medium (11-20%),Medium (30k-60k),2.0,West_Fashion,Fashion_Normal,0,0,31270.649999999998,5518.349999999999,0.8333333333333334
+NC10461,2025-10-11,East,Electronics,116015,14,5339.85,8,3.4,Yes,1,0,1,Medium (11-20%),Very High (>90k),4.602723785717364,East_Electronics,Electronics_Late,1,0,99772.9,16242.100000000002,0.37777777777777777
+NC10047,2025-11-14,South,Furniture,65645,26,9201.14,4,4.3,No,0,1,0,High (21-30%),High (60k-90k),14.016513062685657,South_Furniture,Furniture_Normal,0,0,48577.3,17067.7,0.86
+NC10346,2025-05-11,West,Fashion,10747,11,214.94,4,5.0,No,0,0,0,Medium (11-20%),Low (<30k),2.0,West_Fashion,Fashion_Normal,0,0,9564.83,1182.17,1.0
+NC10251,2025-07-31,East,Furniture,70526,2,17939.55,2,4.4,No,0,0,0,Low (0-10%),High (60k-90k),25.436789269205683,East_Furniture,Furniture_Normal,0,0,69115.48,1410.52,1.4666666666666668
+NC10176,2025-02-05,South,Electronics,13610,32,272.2,4,4.1,No,0,1,0,Very High (>30%),Low (<30k),2.0,South_Electronics,Electronics_Normal,0,0,9254.8,4355.2,0.82
+NC10198,2025-01-07,East,Home Appliances,68499,11,8598.12,3,4.6,No,0,0,0,Medium (11-20%),High (60k-90k),12.552183243551001,East_Home Appliances,Home Appliances_Normal,0,0,60964.11,7534.89,1.15
+NC10451,2025-09-20,East,Furniture,22684,9,5054.82,3,4.5,No,0,0,0,Low (0-10%),Low (<30k),22.28363604302592,East_Furniture,Furniture_Normal,0,0,20642.440000000002,2041.56,1.125
+NC10444,2025-03-02,South,Furniture,15342,34,1083.43,8,3.5,Yes,1,1,1,Very High (>30%),Low (<30k),7.061856342067528,South_Furniture,Furniture_Late,0,1,10125.72,5216.280000000001,0.3888888888888889
+NC10344,2025-07-14,East,Furniture,107429,31,14892.77,5,4.8,No,0,1,0,Very High (>30%),Very High (>90k),13.862895493767976,East_Furniture,Furniture_Normal,0,0,74126.01,33302.99,0.7999999999999999
+NC10278,2025-03-20,North,Home Appliances,12850,7,718.22,9,3.4,No,0,0,1,Low (0-10%),Low (<30k),5.589260700389105,North_Home Appliances,Home Appliances_Late,1,0,11950.5,899.5000000000001,0.33999999999999997
+NC10306,2025-07-26,East,Home Appliances,75982,4,11273.08,3,5.0,No,0,0,0,Low (0-10%),High (60k-90k),14.836513911189492,East_Home Appliances,Home Appliances_Normal,0,0,72942.72,3039.28,1.25
+NC10117,2025-01-28,North,Fashion,102411,16,2048.22,10,4.0,No,0,0,1,Medium (11-20%),Very High (>90k),1.9999999999999998,North_Fashion,Fashion_Late,0,0,86025.23999999999,16385.760000000002,0.36363636363636365
+NC10301,2025-01-14,South,Fashion,46872,22,937.44,6,5.0,No,0,1,1,High (21-30%),Medium (30k-60k),2.0,South_Fashion,Fashion_Late,0,1,36560.16,10311.84,0.7142857142857143
+NC10522,2025-11-16,South,Electronics,115241,32,2304.82,2,4.0,Yes,1,1,0,Very High (>30%),Very High (>90k),2.0,South_Electronics,Electronics_Normal,0,0,78363.87999999999,36877.12,1.3333333333333333
+NC10098,2025-07-06,South,Furniture,9564,34,191.28,8,3.3,Yes,1,1,1,Very High (>30%),Low (<30k),2.0,South_Furniture,Furniture_Late,1,1,6312.239999999999,3251.76,0.36666666666666664
+NC10132,2025-07-20,South,Furniture,4395,21,87.9,8,4.0,No,0,1,1,High (21-30%),Low (<30k),2.0,South_Furniture,Furniture_Late,0,1,3472.05,922.9499999999999,0.4444444444444444
+NC10094,2025-08-08,West,Electronics,27340,7,2094.59,2,4.9,Yes,1,0,0,Low (0-10%),Low (<30k),7.661265544989028,West_Electronics,Electronics_Normal,0,0,25426.199999999997,1913.8000000000002,1.6333333333333335
+NC10217,2025-05-01,North,Home Appliances,12561,5,1420.36,9,3.5,No,0,0,1,Low (0-10%),Low (<30k),11.307698431653531,North_Home Appliances,Home Appliances_Late,0,0,11932.949999999999,628.0500000000001,0.35
+NC10052,2025-03-04,North,Electronics,66511,28,1330.22,7,2.8,Yes,1,1,1,High (21-30%),High (60k-90k),2.0,North_Electronics,Electronics_Late,1,1,47887.92,18623.08,0.35
+NC10523,2025-08-26,West,Fashion,4674,19,93.48,4,5.0,No,0,0,0,Medium (11-20%),Low (<30k),2.0,West_Fashion,Fashion_Normal,0,0,3785.94,888.0600000000001,1.0
+NC10194,2025-07-14,West,Furniture,69823,16,13846.18,4,5.0,No,0,0,0,Medium (11-20%),High (60k-90k),19.830399725018978,West_Furniture,Furniture_Normal,0,0,58651.32,11171.68,1.0
+NC10546,2025-11-09,South,Fashion,82357,30,1647.14,10,2.8,Yes,1,1,1,High (21-30%),High (60k-90k),2.0,South_Fashion,Fashion_Late,1,1,57649.899999999994,24707.1,0.2545454545454545
+NC10378,2025-07-13,North,Fashion,47219,25,944.38,4,4.6,No,0,1,0,High (21-30%),Medium (30k-60k),2.0,North_Fashion,Fashion_Normal,0,0,35414.25,11804.75,0.9199999999999999
+NC10516,2025-08-08,West,Furniture,3488,13,97.59,5,4.5,No,0,0,0,Medium (11-20%),Low (<30k),2.7978784403669725,West_Furniture,Furniture_Normal,0,0,3034.56,453.44,0.75
+NC10375,2025-09-05,North,Fashion,76724,13,2691.05,3,4.9,No,0,0,0,Medium (11-20%),High (60k-90k),3.5074422605703566,North_Fashion,Fashion_Normal,0,0,66749.88,9974.12,1.225
+NC10042,2025-08-17,South,Fashion,116766,32,2335.32,9,3.5,Yes,1,1,1,Very High (>30%),Very High (>90k),2.0,South_Fashion,Fashion_Late,0,1,79400.87999999999,37365.12,0.35
+NC10147,2025-11-24,South,Fashion,17697,25,353.94,3,4.7,No,0,1,0,High (21-30%),Low (<30k),2.0,South_Fashion,Fashion_Normal,0,0,13272.75,4424.25,1.175
+NC10107,2025-03-13,South,Electronics,17062,22,341.24,4,5.0,No,0,1,0,High (21-30%),Low (<30k),2.0,South_Electronics,Electronics_Normal,0,0,13308.36,3753.64,1.0
+NC10219,2025-07-28,South,Furniture,95716,24,15568.15,8,3.2,Yes,1,1,1,High (21-30%),Very High (>90k),16.26494003092482,South_Furniture,Furniture_Late,1,1,72744.16,22971.84,0.35555555555555557
+NC10310,2025-09-02,South,Furniture,52040,22,8052.24,9,3.9,No,0,1,1,High (21-30%),Medium (30k-60k),15.47317448116833,South_Furniture,Furniture_Late,0,1,40591.200000000004,11448.8,0.39
+NC10399,2025-03-06,East,Electronics,95345,34,1906.9,3,4.2,No,0,1,0,Very High (>30%),Very High (>90k),2.0,East_Electronics,Electronics_Normal,0,0,62927.69999999999,32417.300000000003,1.05
+NC10294,2025-05-30,West,Electronics,79504,9,5331.57,4,4.8,Yes,1,0,0,Low (0-10%),High (60k-90k),6.706039947675587,West_Electronics,Electronics_Normal,0,0,72348.64,7155.36,0.96
+NC10100,2025-04-21,West,Home Appliances,67871,19,5733.81,5,5.0,No,0,0,0,Medium (11-20%),High (60k-90k),8.448100072195784,West_Home Appliances,Home Appliances_Normal,0,0,54975.51,12895.49,0.8333333333333334
+NC10481,2025-03-30,West,Fashion,107531,20,2150.62,5,5.0,No,0,1,0,Medium (11-20%),Very High (>90k),2.0,West_Fashion,Fashion_Normal,0,0,86024.8,21506.2,0.8333333333333334
+NC10069,2025-05-10,East,Electronics,11675,4,233.5,7,3.7,Yes,1,0,1,Low (0-10%),Low (<30k),2.0,East_Electronics,Electronics_Late,0,0,11208.0,467.0,0.4625
+NC10022,2025-10-17,North,Electronics,84363,31,1687.26,10,2.8,Yes,1,1,1,Very High (>30%),High (60k-90k),2.0,North_Electronics,Electronics_Late,1,1,58210.469999999994,26152.53,0.2545454545454545
+NC10142,2025-07-04,South,Home Appliances,112458,33,3139.43,3,4.3,Yes,1,1,0,Very High (>30%),Very High (>90k),2.791646659197211,South_Home Appliances,Home Appliances_Normal,0,0,75346.85999999999,37111.14,1.075
+NC10521,2025-01-27,West,Electronics,31653,8,2259.85,5,4.7,No,0,0,0,Low (0-10%),Medium (30k-60k),7.139449657220484,West_Electronics,Electronics_Normal,0,0,29120.760000000002,2532.2400000000002,0.7833333333333333
+NC10439,2025-03-11,West,Fashion,85390,24,1707.8,5,5.0,No,0,1,0,High (21-30%),High (60k-90k),2.0,West_Fashion,Fashion_Normal,0,0,64896.4,20493.6,0.8333333333333334
+NC10396,2025-02-22,West,Electronics,108144,17,4092.26,3,4.5,No,0,0,0,Medium (11-20%),Very High (>90k),3.7840841840508954,West_Electronics,Electronics_Normal,0,0,89759.51999999999,18384.48,1.125
+NC10124,2025-01-06,West,Furniture,43998,26,5794.67,2,5.0,No,0,1,0,High (21-30%),Medium (30k-60k),13.1703031955998,West_Furniture,Furniture_Normal,0,0,32558.52,11439.48,1.6666666666666667
+NC10298,2025-07-19,North,Fashion,118783,13,4291.49,2,4.6,No,0,0,0,Medium (11-20%),Very High (>90k),3.6128823148093585,North_Fashion,Fashion_Normal,0,0,103341.21,15441.79,1.5333333333333332
+NC10197,2025-06-13,North,Furniture,68350,16,12801.8,3,4.4,No,0,0,0,Medium (11-20%),High (60k-90k),18.72977322604243,North_Furniture,Furniture_Normal,0,0,57414.0,10936.0,1.1
+NC10006,2025-06-06,South,Fashion,2410,34,48.2,6,4.5,No,0,1,1,Very High (>30%),Low (<30k),2.0,South_Fashion,Fashion_Late,0,1,1590.6,819.4000000000001,0.6428571428571429
+NC10190,2025-03-16,East,Fashion,23946,23,478.92,4,4.9,No,0,1,0,High (21-30%),Low (<30k),2.0,East_Fashion,Fashion_Normal,0,0,18438.420000000002,5507.58,0.9800000000000001
+NC10517,2025-09-17,South,Electronics,99990,27,1999.8,6,4.5,No,0,1,1,High (21-30%),Very High (>90k),2.0,South_Electronics,Electronics_Late,0,1,72992.7,26997.300000000003,0.6428571428571429
+NC10503,2025-03-31,West,Fashion,23573,7,471.46,4,5.0,No,0,0,0,Low (0-10%),Low (<30k),2.0,West_Fashion,Fashion_Normal,0,0,21922.89,1650.1100000000001,1.0
+NC10406,2025-11-28,South,Fashion,39445,33,788.9,9,3.5,Yes,1,1,1,Very High (>30%),Medium (30k-60k),2.0,South_Fashion,Fashion_Late,0,1,26428.149999999998,13016.85,0.35
+NC10473,2025-08-21,North,Fashion,2809,16,56.18,5,5.0,Yes,1,0,0,Medium (11-20%),Low (<30k),2.0,North_Fashion,Fashion_Normal,0,0,2359.56,449.44,0.8333333333333334
+NC10465,2025-08-01,West,Home Appliances,78800,17,7741.8,2,5.0,No,0,0,0,Medium (11-20%),High (60k-90k),9.824619289340102,West_Home Appliances,Home Appliances_Normal,0,0,65404.0,13396.000000000002,1.6666666666666667
+NC10225,2025-06-26,East,Fashion,106266,21,2125.32,7,4.1,Yes,1,1,1,High (21-30%),Very High (>90k),2.0,East_Fashion,Fashion_Late,0,1,83950.14,22315.86,0.5125
+NC10417,2025-08-03,South,Electronics,106620,35,2132.4,4,4.7,Yes,1,1,0,Very High (>30%),Very High (>90k),2.0,South_Electronics,Electronics_Normal,0,0,69303.0,37317.0,0.9400000000000001
+NC10008,2025-02-27,North,Home Appliances,99934,30,3046.03,5,4.5,Yes,1,1,0,High (21-30%),Very High (>90k),3.0480417075269677,North_Home Appliances,Home Appliances_Normal,0,0,69953.79999999999,29980.199999999997,0.75
+NC10530,2025-10-02,North,Electronics,26262,13,1349.11,8,4.1,No,0,0,1,Medium (11-20%),Low (<30k),5.137118269743355,North_Electronics,Electronics_Late,0,0,22847.94,3414.06,0.4555555555555555
+NC10366,2025-07-23,East,Electronics,2726,34,54.52,7,3.0,Yes,1,1,1,Very High (>30%),Low (<30k),2.0,East_Electronics,Electronics_Late,1,1,1799.1599999999999,926.84,0.375
+NC10410,2025-09-02,East,Furniture,22298,27,3039.23,6,3.9,No,0,1,1,High (21-30%),Low (<30k),13.630056507310073,East_Furniture,Furniture_Late,0,1,16277.539999999999,6020.46,0.5571428571428572
+NC10001,2025-08-13,East,Electronics,65904,9,4840.37,2,4.7,No,0,0,0,Low (0-10%),High (60k-90k),7.344576960427288,East_Electronics,Electronics_Normal,0,0,59972.64,5931.36,1.5666666666666667
+NC10085,2025-07-25,North,Fashion,63111,7,3949.1,10,3.5,No,0,0,1,Low (0-10%),High (60k-90k),6.257387777091157,North_Fashion,Fashion_Late,0,0,58693.229999999996,4417.77,0.3181818181818182
+NC10178,2025-05-06,West,Furniture,21724,12,4427.62,4,5.0,No,0,0,0,Medium (11-20%),Low (<30k),20.38123734118947,West_Furniture,Furniture_Normal,0,0,19117.12,2606.88,1.0
+NC10464,2025-05-07,South,Furniture,43378,31,4818.61,10,2.8,Yes,1,1,1,Very High (>30%),Medium (30k-60k),11.108419014246852,South_Furniture,Furniture_Late,1,1,29930.819999999996,13447.18,0.2545454545454545
+NC10280,2025-07-03,East,Electronics,4002,26,80.04,10,3.6,No,0,1,1,High (21-30%),Low (<30k),2.0,East_Electronics,Electronics_Late,0,1,2961.48,1040.52,0.32727272727272727
+NC10058,2025-04-18,South,Home Appliances,74604,30,2895.18,3,4.6,No,0,1,0,High (21-30%),High (60k-90k),3.8807302557503616,South_Home Appliances,Home Appliances_Normal,0,0,52222.799999999996,22381.2,1.15
+NC10102,2025-03-16,East,Electronics,103772,6,8397.8,8,4.0,No,0,0,1,Low (0-10%),Very High (>90k),8.092549049840034,East_Electronics,Electronics_Late,0,0,97545.68,6226.32,0.4444444444444444
+NC10156,2025-08-12,West,Fashion,8792,11,175.84,3,4.7,No,0,0,0,Medium (11-20%),Low (<30k),2.0,West_Fashion,Fashion_Normal,0,0,7824.88,967.12,1.175
+NC10549,2025-07-16,South,Home Appliances,56022,24,2722.58,9,3.7,No,0,1,1,High (21-30%),Medium (30k-60k),4.859840776837671,South_Home Appliances,Home Appliances_Late,0,1,42576.72,13445.279999999999,0.37
+NC10049,2025-04-05,West,Electronics,72702,9,5022.81,3,4.9,No,0,0,0,Low (0-10%),High (60k-90k),6.908764545679624,West_Electronics,Electronics_Normal,0,0,66158.82,6543.179999999999,1.225
+NC10044,2025-01-11,East,Home Appliances,8841,13,298.18,3,4.9,No,0,0,0,Medium (11-20%),Low (<30k),3.3726953964483655,East_Home Appliances,Home Appliances_Normal,0,0,7691.67,1149.33,1.225
+NC10429,2025-03-16,West,Electronics,113254,24,2265.08,3,5.0,No,0,1,0,High (21-30%),Very High (>90k),2.0,West_Electronics,Electronics_Normal,0,0,86073.04000000001,27180.96,1.25
+NC10232,2025-03-10,East,Home Appliances,52813,2,8404.02,7,4.0,No,0,0,1,Low (0-10%),Medium (30k-60k),15.912786624505332,East_Home Appliances,Home Appliances_Late,0,0,51756.74,1056.26,0.5
+NC10535,2025-08-05,South,Electronics,100420,31,2008.4,4,4.6,No,0,1,0,Very High (>30%),Very High (>90k),2.0,South_Electronics,Electronics_Normal,0,0,69289.79999999999,31130.2,0.9199999999999999
+NC10547,2025-01-21,West,Fashion,102945,34,2058.9,4,4.3,Yes,1,1,0,Very High (>30%),Very High (>90k),2.0,West_Fashion,Fashion_Normal,0,0,67943.7,35001.3,0.86
+NC10071,2025-08-19,East,Furniture,45918,1,11878.41,7,3.5,No,0,0,1,Low (0-10%),Medium (30k-60k),25.868744283287597,East_Furniture,Furniture_Late,0,0,45458.82,459.18,0.4375
+NC10016,2025-09-01,West,Furniture,18947,13,2786.76,5,5.0,No,0,0,0,Medium (11-20%),Low (<30k),14.70818599250541,West_Furniture,Furniture_Normal,0,0,16483.89,2463.11,0.8333333333333334
+NC10504,2025-11-10,East,Home Appliances,29233,14,3102.26,10,3.3,Yes,1,0,1,Medium (11-20%),Low (<30k),10.612184859576507,East_Home Appliances,Home Appliances_Late,1,0,25140.38,4092.6200000000003,0.3
+NC10471,2025-09-26,South,Furniture,98641,31,13263.06,7,2.9,No,0,1,1,Very High (>30%),Very High (>90k),13.445788262487202,South_Furniture,Furniture_Late,1,1,68062.29,30578.71,0.3625
+NC10040,2025-10-09,South,Electronics,94684,22,1893.68,6,4.8,No,0,1,1,High (21-30%),Very High (>90k),2.0,South_Electronics,Electronics_Late,0,1,73853.52,20830.48,0.6857142857142857
+NC10536,2025-11-26,West,Furniture,68722,6,16351.67,3,4.8,No,0,0,0,Low (0-10%),High (60k-90k),23.793937894706207,West_Furniture,Furniture_Normal,0,0,64598.67999999999,4123.32,1.2
+NC10136,2025-11-21,East,Home Appliances,117444,11,13912.44,8,3.8,No,0,0,1,Medium (11-20%),Very High (>90k),11.846020230918567,East_Home Appliances,Home Appliances_Late,0,0,104525.16,12918.84,0.4222222222222222
+NC10226,2025-01-18,East,Fashion,34559,21,691.18,3,5.0,No,0,1,0,High (21-30%),Medium (30k-60k),1.9999999999999998,East_Fashion,Fashion_Normal,0,0,27301.61,7257.389999999999,1.25
+NC10347,2025-10-29,North,Home Appliances,115180,13,13080.37,8,3.6,No,0,0,1,Medium (11-20%),Very High (>90k),11.356459454766453,North_Home Appliances,Home Appliances_Late,0,0,100206.6,14973.4,0.4
+NC10407,2025-06-08,South,Fashion,14364,29,287.28,8,3.5,Yes,1,1,1,High (21-30%),Low (<30k),1.9999999999999998,South_Fashion,Fashion_Late,0,1,10198.439999999999,4165.5599999999995,0.3888888888888889
+NC10496,2025-07-23,South,Electronics,30276,32,605.52,7,3.2,Yes,1,1,1,Very High (>30%),Medium (30k-60k),2.0,South_Electronics,Electronics_Late,1,1,20587.679999999997,9688.32,0.4
+NC10305,2025-04-03,North,Furniture,48676,21,8156.4,3,4.4,No,0,1,0,High (21-30%),Medium (30k-60k),16.756512449667184,North_Furniture,Furniture_Normal,0,0,38454.04,10221.96,1.1
+NC10158,2025-11-16,North,Furniture,70056,20,12503.64,2,5.0,No,0,1,0,Medium (11-20%),High (60k-90k),17.84806440561836,North_Furniture,Furniture_Normal,0,0,56044.8,14011.2,1.6666666666666667
+NC10309,2025-12-05,East,Fashion,27063,25,541.26,8,4.0,No,0,1,1,High (21-30%),Low (<30k),2.0,East_Fashion,Fashion_Late,0,1,20297.25,6765.75,0.4444444444444444
+NC10452,2025-08-15,North,Home Appliances,7318,25,146.36,3,4.6,No,0,1,0,High (21-30%),Low (<30k),2.0,North_Home Appliances,Home Appliances_Normal,0,0,5488.5,1829.5,1.15
+NC10493,2025-03-25,North,Furniture,84925,19,16038.91,5,5.0,No,0,0,0,Medium (11-20%),High (60k-90k),18.885969973506032,North_Furniture,Furniture_Normal,0,0,68789.25,16135.75,0.8333333333333334
+NC10293,2025-01-26,West,Fashion,9356,18,187.12,5,5.0,No,0,0,0,Medium (11-20%),Low (<30k),2.0,West_Fashion,Fashion_Normal,0,0,7671.920000000001,1684.08,0.8333333333333334
+NC10428,2025-04-02,South,Electronics,94449,29,1888.98,5,4.0,Yes,1,1,0,High (21-30%),Very High (>90k),2.0,South_Electronics,Electronics_Normal,0,0,67058.79,27390.21,0.6666666666666666
+NC10380,2025-03-14,East,Fashion,67245,0,5379.5,6,5.0,No,0,0,1,Low (0-10%),High (60k-90k),7.99985129005874,East_Fashion,Fashion_Late,0,0,67245.0,0.0,0.7142857142857143
+NC10446,2025-09-14,West,Furniture,12072,18,1004.33,2,4.9,No,0,0,0,Medium (11-20%),Low (<30k),8.319499668654737,West_Furniture,Furniture_Normal,0,0,9899.04,2172.96,1.6333333333333335
+NC10063,2025-10-04,East,Home Appliances,31931,30,950.89,6,4.0,Yes,1,1,1,High (21-30%),Medium (30k-60k),2.9779524599918576,East_Home Appliances,Home Appliances_Late,0,1,22351.699999999997,9579.3,0.5714285714285714
+NC10025,2025-11-23,West,Fashion,6839,5,136.78,4,5.0,No,0,0,0,Low (0-10%),Low (<30k),2.0,West_Fashion,Fashion_Normal,0,0,6497.049999999999,341.95000000000005,1.0
+NC10002,2025-08-23,South,Home Appliances,57370,33,1147.4,10,3.0,Yes,1,1,1,Very High (>30%),Medium (30k-60k),2.0,South_Home Appliances,Home Appliances_Late,1,1,38437.899999999994,18932.100000000002,0.2727272727272727
+NC10476,2025-01-20,West,Electronics,69157,17,2641.33,5,5.0,No,0,0,0,Medium (11-20%),High (60k-90k),3.8193241465072227,West_Electronics,Electronics_Normal,0,0,57400.31,11756.69,0.8333333333333334
+NC10544,2025-06-18,North,Furniture,93305,25,15168.59,9,3.4,No,0,1,1,High (21-30%),Very High (>90k),16.25699587374739,North_Furniture,Furniture_Late,1,1,69978.75,23326.25,0.33999999999999997
+NC10113,2025-12-03,East,Home Appliances,99615,5,14890.36,3,4.9,Yes,1,0,0,Low (0-10%),Very High (>90k),14.947909451387845,East_Home Appliances,Home Appliances_Normal,0,0,94634.25,4980.75,1.225
+NC10515,2025-10-22,East,Electronics,111903,25,2238.06,8,3.7,No,0,1,1,High (21-30%),Very High (>90k),2.0,East_Electronics,Electronics_Late,0,1,83927.25,27975.75,0.41111111111111115
+NC10119,2025-04-28,West,Electronics,35190,29,703.8,3,4.9,Yes,1,1,0,High (21-30%),Medium (30k-60k),2.0,West_Electronics,Electronics_Normal,0,0,24984.899999999998,10205.099999999999,1.225
+NC10486,2025-07-07,East,Electronics,40222,23,804.44,10,3.4,Yes,1,1,1,High (21-30%),Medium (30k-60k),2.0,East_Electronics,Electronics_Late,1,1,30970.940000000002,9251.060000000001,0.3090909090909091
+NC10106,2025-12-28,East,Fashion,59988,7,3677.18,3,4.7,No,0,0,0,Low (0-10%),Medium (30k-60k),6.129859305194372,East_Fashion,Fashion_Normal,0,0,55788.84,4199.160000000001,1.175
+NC10474,2025-04-08,North,Electronics,99173,33,1983.46,9,3.5,Yes,1,1,1,Very High (>30%),Very High (>90k),2.0,North_Electronics,Electronics_Late,0,1,66445.90999999999,32727.09,0.35
+NC10413,2025-06-19,West,Home Appliances,20287,12,1986.16,2,4.8,No,0,0,0,Medium (11-20%),Low (<30k),9.79030906491842,West_Home Appliances,Home Appliances_Normal,0,0,17852.56,2434.44,1.5999999999999999
+NC10527,2025-07-15,West,Furniture,84903,2,21666.71,2,4.8,No,0,0,0,Low (0-10%),High (60k-90k),25.51936916245598,West_Furniture,Furniture_Normal,0,0,83204.94,1698.06,1.5999999999999999
+NC10485,2025-09-19,West,Electronics,56480,18,1827.72,5,5.0,No,0,0,0,Medium (11-20%),Medium (30k-60k),3.2360481586402265,West_Electronics,Electronics_Normal,0,0,46313.600000000006,10166.4,0.8333333333333334
+NC10416,2025-05-20,West,Furniture,22661,3,4898.16,3,5.0,No,0,0,0,Low (0-10%),Low (<30k),21.61493314505097,West_Furniture,Furniture_Normal,0,0,21981.17,679.8299999999999,1.25
+NC10325,2025-04-16,East,Home Appliances,85612,8,11344.13,5,5.0,No,0,0,0,Low (0-10%),High (60k-90k),13.25063075269822,East_Home Appliances,Home Appliances_Normal,0,0,78763.04000000001,6848.96,0.8333333333333334
+NC10272,2025-12-19,South,Electronics,7125,26,142.5,2,4.1,Yes,1,1,0,High (21-30%),Low (<30k),2.0,South_Electronics,Electronics_Normal,0,0,5272.5,1852.5,1.3666666666666665
+NC10152,2025-03-10,North,Electronics,66149,34,1322.98,3,4.5,No,0,1,0,Very High (>30%),High (60k-90k),2.0,North_Electronics,Electronics_Normal,0,0,43658.34,22490.66,1.125
+NC10525,2025-11-29,North,Electronics,99953,35,1999.06,10,3.0,Yes,1,1,1,Very High (>30%),Very High (>90k),2.0,North_Electronics,Electronics_Late,1,1,64969.450000000004,34983.549999999996,0.2727272727272727
+NC10145,2025-02-27,West,Home Appliances,12847,13,694.91,2,5.0,No,0,0,0,Medium (11-20%),Low (<30k),5.409122752393555,West_Home Appliances,Home Appliances_Normal,0,0,11176.89,1670.1100000000001,1.6666666666666667
+NC10427,2025-07-17,South,Fashion,100349,31,2006.98,7,3.4,No,0,1,1,Very High (>30%),Very High (>90k),2.0,South_Fashion,Fashion_Late,1,1,69240.81,31108.19,0.425
+NC10524,2025-12-10,South,Furniture,6438,35,470.66,5,4.3,No,0,1,0,Very High (>30%),Low (<30k),7.310655483069277,South_Furniture,Furniture_Normal,0,0,4184.7,2253.2999999999997,0.7166666666666667
+NC10341,2025-12-24,East,Electronics,29225,5,1676.44,2,4.7,No,0,0,0,Low (0-10%),Low (<30k),5.736321642429427,East_Electronics,Electronics_Normal,0,0,27763.75,1461.25,1.5666666666666667
+NC10385,2025-07-29,East,Electronics,24768,20,495.36,3,4.8,Yes,1,1,0,Medium (11-20%),Low (<30k),2.0,East_Electronics,Electronics_Normal,0,0,19814.4,4953.6,1.2
+NC10020,2025-12-29,East,Home Appliances,57760,27,3020.96,9,3.3,Yes,1,1,1,High (21-30%),Medium (30k-60k),5.230193905817174,East_Home Appliances,Home Appliances_Late,1,1,42164.799999999996,15595.2,0.32999999999999996
+NC10284,2025-12-05,West,Fashion,87325,1,7078.54,4,4.7,No,0,0,0,Low (0-10%),High (60k-90k),8.105971943887775,West_Fashion,Fashion_Normal,0,0,86451.75,873.25,0.9400000000000001
+NC10144,2025-10-08,South,Home Appliances,92342,34,1866.23,9,3.1,Yes,1,1,1,Very High (>30%),Very High (>90k),2.020998029065864,South_Home Appliances,Home Appliances_Late,1,1,60945.719999999994,31396.280000000002,0.31

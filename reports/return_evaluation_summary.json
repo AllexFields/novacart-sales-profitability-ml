@@ -1,0 +1,87 @@
+{
+    "Model Name": "XGBoost Classifier",
+    "Evaluation Metrics": {
+        "Accuracy": 0.8454545454545455,
+        "Precision": 0.6818181818181818,
+        "Recall": 0.9090909090909091,
+        "F1 Score": 0.7792207792207793,
+        "ROC AUC": 0.8630460448642268,
+        "Average Precision": 0.7101339239168594
+    },
+    "Classification Report": {
+        "Retained": {
+            "precision": 0.9545454545454546,
+            "recall": 0.8181818181818182,
+            "f1-score": 0.8811188811188811,
+            "support": 77.0
+        },
+        "Returned": {
+            "precision": 0.6818181818181818,
+            "recall": 0.9090909090909091,
+            "f1-score": 0.7792207792207793,
+            "support": 33.0
+        },
+        "accuracy": 0.8454545454545455,
+        "macro avg": {
+            "precision": 0.8181818181818181,
+            "recall": 0.8636363636363636,
+            "f1-score": 0.8301698301698301,
+            "support": 110.0
+        },
+        "weighted avg": {
+            "precision": 0.8727272727272727,
+            "recall": 0.8454545454545455,
+            "f1-score": 0.8505494505494505,
+            "support": 110.0
+        }
+    },
+    "Top 10 Important Features": [
+        {
+            "Feature": "Discount_Bucket_Very High (>30%)",
+            "Importance": 0.19061829149723053
+        },
+        {
+            "Feature": "Low_Rating_Flag",
+            "Importance": 0.1829226166009903
+        },
+        {
+            "Feature": "Discount_pct",
+            "Importance": 0.11291928589344025
+        },
+        {
+            "Feature": "Customer_Rating",
+            "Importance": 0.09108062833547592
+        },
+        {
+            "Feature": "Discount_Bucket_High (21-30%)",
+            "Importance": 0.08011491596698761
+        },
+        {
+            "Feature": "High_Discount_Flag",
+            "Importance": 0.04941919445991516
+        },
+        {
+            "Feature": "Delivery_Days",
+            "Importance": 0.03207085281610489
+        },
+        {
+            "Feature": "Region_Category_East_Furniture",
+            "Importance": 0.019885137677192688
+        },
+        {
+            "Feature": "Rating_Delivery_Ratio",
+            "Importance": 0.019211843609809875
+        },
+        {
+            "Feature": "Discount_Amount",
+            "Importance": 0.019072167575359344
+        }
+    ],
+    "Business Questions & Strategic Answers": {
+        "1. What drives returns?": "Returns are primarily driven by low customer satisfaction scores (Customer_Rating < 3.5), deep discounting (Discount_pct >= 20%), and extended delivery transit times (Delivery_Days > 5). When delayed shipping coincides with aggressive discounts, return likelihood exceeds 44%.",
+        "2. How important is discounting?": "Discounting is among the top 3 most predictive factors. Orders receiving >=20% discount experience a 44.1% return rate compared to only 12.1% for items with <=10% discount. Heavy discounts induce impulsive purchases with higher buyer remorse.",
+        "3. How important is delivery delay?": "Fulfillment latency is a critical operational determinant. Deliveries taking more than 5 days exhibit a 41.2% return rate (vs. 23.1% for standard deliveries under 5 days). Customer rating degrades inversely with delivery duration, compounding return risk.",
+        "4. Which categories contribute most to risk?": "Fashion and Electronics contribute the highest return volume and margin risk. Fashion suffers from sizing/expectation variance, while Electronics suffer return penalties when delayed.",
+        "5. Which regions contribute most to risk?": "South region exhibits the highest operational risk profile. While it generates substantial sales volume, it couples aggressive regional discounting with slower average fulfillment, resulting in the lowest net margins."
+    }
+}

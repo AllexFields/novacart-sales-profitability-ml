@@ -1,0 +1,59 @@
+{
+    "Logistic Regression": {
+        "Best CV ROC-AUC": 0.8499420707776076,
+        "Best Parameters": {
+            "C": 0.1,
+            "solver": "liblinear"
+        },
+        "Test Accuracy": 0.7909090909090909,
+        "Test Precision": 0.6136363636363636,
+        "Test Recall": 0.8181818181818182,
+        "Test F1 Score": 0.7012987012987013,
+        "Test ROC AUC": 0.8268398268398269
+    },
+    "Random Forest": {
+        "Best CV ROC-AUC": 0.8541764031452027,
+        "Best Parameters": {
+            "max_depth": 4,
+            "min_samples_leaf": 2,
+            "min_samples_split": 2,
+            "n_estimators": 100
+        },
+        "Test Accuracy": 0.8272727272727273,
+        "Test Precision": 0.6521739130434783,
+        "Test Recall": 0.9090909090909091,
+        "Test F1 Score": 0.759493670886076,
+        "Test ROC AUC": 0.8358913813459269
+    },
+    "Gradient Boosting": {
+        "Best CV ROC-AUC": 0.8615756748490753,
+        "Best Parameters": {
+            "learning_rate": 0.05,
+            "max_depth": 3,
+            "n_estimators": 100,
+            "subsample": 1.0
+        },
+        "Test Accuracy": 0.8363636363636363,
+        "Test Precision": 0.6829268292682927,
+        "Test Recall": 0.8484848484848485,
+        "Test F1 Score": 0.7567567567567568,
+        "Test ROC AUC": 0.8543880362062181
+    },
+    "XGBoost": {
+        "Best CV ROC-AUC": 0.8580489226972569,
+        "Best Parameters": {
+            "colsample_bytree": 0.8,
+            "learning_rate": 0.03,
+            "max_depth": 3,
+            "n_estimators": 100,
+            "subsample": 1.0
+        },
+        "Test Accuracy": 0.8454545454545455,
+        "Test Precision": 0.6818181818181818,
+        "Test Recall": 0.9090909090909091,
+        "Test F1 Score": 0.7792207792207793,
+        "Test ROC AUC": 0.8630460448642268
+    },
+    "Champion Model": "XGBoost",
+    "Champion Rationale": "XGBoost achieved the superior performance on the holdout evaluation set (ROC-AUC: 0.8630, F1 Score: 0.7792). By effectively modeling non-linear interaction thresholds between deep discounting (>=20%) and fulfillment delays (>5 days) while handling class imbalance without overfitting on sparse categorical intersections, it maximized discrimination ability."
+}

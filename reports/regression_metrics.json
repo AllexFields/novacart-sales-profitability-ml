@@ -1,0 +1,53 @@
+{
+    "Linear Regression (Ridge)": {
+        "Best CV R2": 0.8087094313598625,
+        "Best Parameters": {
+            "alpha": 10.0
+        },
+        "Test MAE": 1714.4837280596278,
+        "Test MSE": 5410950.966106295,
+        "Test RMSE": 2326.1450870713747,
+        "Test R2": 0.8003500751839683
+    },
+    "Random Forest Regressor": {
+        "Best CV R2": 0.9747201470684903,
+        "Best Parameters": {
+            "max_depth": null,
+            "min_samples_split": 2,
+            "n_estimators": 150
+        },
+        "Test MAE": 404.85577090909146,
+        "Test MSE": 451643.00588483724,
+        "Test RMSE": 672.0439017540723,
+        "Test R2": 0.9833355554812058
+    },
+    "Gradient Boosting Regressor": {
+        "Best CV R2": 0.984522751702259,
+        "Best Parameters": {
+            "learning_rate": 0.05,
+            "max_depth": 5,
+            "n_estimators": 150,
+            "subsample": 0.8
+        },
+        "Test MAE": 351.9312070935537,
+        "Test MSE": 273277.0565559708,
+        "Test RMSE": 522.7590807972357,
+        "Test R2": 0.9899167920505835
+    },
+    "XGBoost Regressor": {
+        "Best CV R2": 0.9820492905385017,
+        "Best Parameters": {
+            "colsample_bytree": 0.8,
+            "learning_rate": 0.1,
+            "max_depth": 3,
+            "n_estimators": 150,
+            "subsample": 0.8
+        },
+        "Test MAE": 454.82991871781786,
+        "Test MSE": 391034.01989244006,
+        "Test RMSE": 625.3271303025641,
+        "Test R2": 0.9855718683904069
+    },
+    "Champion Model": "Gradient Boosting Regressor",
+    "Champion Rationale": "Gradient Boosting Regressor delivered the best predictive accuracy on the holdout evaluation set with an R\u00b2 score of 0.9899 and RMSE of $522.76. Because profit exhibits sharp non-linear interactions across product categories (Furniture delivering ~16% margin vs. Fashion at ~2.9%) and non-linear discounting decay, the gradient boosting ensemble captured these multi-dimensional interactions with minimal residual variance."
+}
